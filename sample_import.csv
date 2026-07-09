@@ -1,0 +1,3 @@
+OrderID,Customer,Product,Category,Quantity,OrderedDate,DispatchDate,ExpectedDeliveryDate,OrderValue,CostPrice,Profit,Priority,Status,Address,Region,Courier,PaymentMode,SalesExecutive,ReturnFlag
+ORD9999,Test Customer 1,Premium Gadget,Electronics,2,30-May-2026,30-May-2026,01-Jun-2026,120000,90000,30000,High,Delayed,123 Test Street,North,BlueDart,COD,System,No
+ORD8888,Test Customer 2,Standard Gadget,Electronics,1,28-May-2026,28-May-2026,30-May-2026,45000,30000,15000,Medium,Delayed,456 Test Road,West,Delhivery,Prepaid,Agent X,No

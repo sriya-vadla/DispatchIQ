@@ -1,0 +1,401 @@
+OrderID,Customer,Product,Category,Quantity,OrderedDate,DispatchDate,ExpectedDeliveryDate,OrderValue,CostPrice,Profit,Priority,Status,Address,Region,Courier,PaymentMode,SalesExecutive,ReturnFlag
+ORD1001,Rahul Sharma,Smartphone,Electronics,4,6-May-26,7-May-26,9-May-26,100000,72000,28000,Can Wait,Scheduled,Kolkata,East,Ecom Express,COD,Ravi,No
+ORD1002,Sneha Patel,Printer,Office,1,7-Feb-26,10-Feb-26,14-Feb-26,8500,6000,2500,Urgent,In Transit,Delhi,North,BlueDart,Debit Card,Anjali,No
+ORD1003,Anjali Rao,Tablet,Electronics,4,7-May-26,12-May-26,18-May-26,72000,56000,16000,Can Wait,In Transit,Jaipur,North,Delhivery,Debit Card,Anjali,No
+ORD1004,Priiya Reddy,Printer,Office,5,14-Jun-26,21-Jun-26,29-Jun-26,42500,30000,12500,Can Wait,Scheduled,Bangalore,South,Ecom Express,Debit Card,Suresh,No
+ORD1005,Neha Gupta,Tablet,Electronics,5,23-Feb-26,5-Mar-26,15-Mar-26,90000,70000,20000,Urgent,Delivered,Pune,West,Delhivery,Net Banking,Anjali,No
+ORD1006,Rohit Verma,Printer,Office,5,12-Apr-26,24-Apr-26,26-Apr-26,42500,30000,12500,Urgent,Pending,Hyderabad,South,DTDC,Net Banking,Anjali,No
+ORD1007,Vikram Singh,Smartphone,Electronics,2,12-Feb-26,27-Feb-26,3-Mar-26,50000,36000,14000,Can Wait,Pending,Ahmedabad,West,Delhivery,Debit Card,Ravi,No
+ORD1008,Rohit Verma,Printer,Office,2,24-May-26,11-Jun-26,17-Jun-26,17000,12000,5000,Can Wait,Delivered,Delhi,North,DTDC,Credit Card,Ravi,No
+ORD1009,Arjun Mehta,SSD 1TB,Storage,2,6-Feb-26,26-Feb-26,6-Mar-26,13000,9000,4000,Can Wait,Scheduled,Ahmedabad,West,Delhivery,Debit Card,Priya,No
+ORD1010,Kiran Das,Laptop,Electronics,4,11-Jun-26,12-Jun-26,22-Jun-26,220000,160000,60000,Urgent,Scheduled,Chennai,South,DTDC,COD,Suresh,No
+ORD1011,Vikram Singh,Smartphone,Electronics,4,4-Apr-26,7-Apr-26,9-Apr-26,100000,72000,28000,Can Wait,Scheduled,Jaipur,North,DTDC,UPI,Priya,No
+ORD1012,Rohit Verma,Printer,Office,5,26-Apr-26,1-May-26,5-May-26,42500,30000,12500,Can Wait,In Transit,Jaipur,North,DTDC,Credit Card,Anjali,No
+ORD1013,Rohit Verma,Webcam,Accessories,3,31-May-26,7-Jun-26,13-Jun-26,6600,3600,3000,Can Wait,Delivered,Mumbai,West,DTDC,Credit Card,Ravi,No
+ORD1014,Rohit Verma,Headphones,Accessories,5,28-Jun-26,8-Jul-26,16-Jul-26,17500,11000,6500,Urgent,Scheduled,Chennai,South,DTDC,COD,Ravi,No
+ORD1015,Rahul Sharma,Mouse,Accessories,5,30-Mar-26,11-Apr-26,21-Apr-26,6000,3500,2500,Urgent,Delivered,Mumbai,West,BlueDart,Debit Card,Karthik,No
+ORD1016,Neha Gupta,Headphones,Accessories,5,3-Jan-26,18-Jan-26,20-Jan-26,17500,11000,6500,Can Wait,Pending,Pune,West,Delhivery,Credit Card,Ravi,No
+ORD1017,Sneha Patel,Smartphone,Electronics,4,17-Apr-26,5-May-26,9-May-26,100000,72000,28000,Can Wait,Delivered,Hyderabad,South,DTDC,Credit Card,Priya,No
+ORD1018,Anjali Rao,Smartphone,Electronics,5,8-Jun-26,28-Jun-26,4-Jul-26,125000,90000,35000,Urgent,Delivered,Kolkata,East,Delhivery,Debit Card,Suresh,No
+ORD1019,Amit Kumar,Tablet,Electronics,5,22-May-26,23-May-26,31-May-26,90000,70000,20000,Urgent,Scheduled,Kolkata,East,BlueDart,Debit Card,Anjali,No
+ORD1020,Neha Gupta,Headphones,Accessories,5,7-Apr-26,10-Apr-26,20-Apr-26,17500,11000,6500,Urgent,In Transit,Hyderabad,South,BlueDart,Credit Card,Anjali,No
+ORD1021,Arjun Mehta,Laptop,Electronics,1,19-Mar-26,24-Mar-26,26-Mar-26,55000,40000,15000,Can Wait,Delivered,Mumbai,West,Delhivery,Credit Card,Karthik,No
+ORD1022,Kiran Das,Smartphone,Electronics,5,10-Feb-26,17-Feb-26,21-Feb-26,125000,90000,35000,Can Wait,Pending,Delhi,North,Delhivery,UPI,Priya,No
+ORD1023,Kiran Das,Webcam,Accessories,4,18-Apr-26,28-Apr-26,4-May-26,8800,4800,4000,Urgent,Scheduled,Pune,West,BlueDart,UPI,Priya,No
+ORD1024,Neha Gupta,Monitor,Electronics,3,5-Feb-26,17-Feb-26,25-Feb-26,54000,36000,18000,Urgent,Delivered,Mumbai,West,Delhivery,COD,Karthik,No
+ORD1025,Vikram Singh,Webcam,Accessories,5,11-Feb-26,26-Feb-26,8-Mar-26,11000,6000,5000,Can Wait,Scheduled,Chennai,South,DTDC,Net Banking,Priya,No
+ORD1026,Arjun Mehta,Smartphone,Electronics,5,6-Mar-26,24-Mar-26,26-Mar-26,125000,90000,35000,Can Wait,Returned,Kolkata,East,Delhivery,Net Banking,Ravi,Yes
+ORD1027,Vikram Singh,Tablet,Electronics,3,10-Feb-26,2-Mar-26,6-Mar-26,54000,42000,12000,Urgent,Pending,Bangalore,South,Ecom Express,Debit Card,Priya,No
+ORD1028,Amit Kumar,Smartphone,Electronics,4,10-Jan-26,11-Jan-26,17-Jan-26,100000,72000,28000,Can Wait,In Transit,Pune,West,BlueDart,Net Banking,Ravi,No
+ORD1029,Vikram Singh,Smartphone,Electronics,2,7-Feb-26,10-Feb-26,18-Feb-26,50000,36000,14000,Can Wait,In Transit,Ahmedabad,West,Delhivery,Net Banking,Anjali,No
+ORD1030,Neha Gupta,Smartphone,Electronics,1,3-Mar-26,8-Mar-26,18-Mar-26,25000,18000,7000,Can Wait,Scheduled,Pune,West,BlueDart,Debit Card,Karthik,No
+ORD1031,Amit Kumar,Monitor,Electronics,2,2-Feb-26,9-Feb-26,11-Feb-26,36000,24000,12000,Urgent,Delivered,Jaipur,North,Delhivery,Debit Card,Ravi,No
+ORD1032,Neha Gupta,Tablet,Electronics,1,15-Apr-26,25-Apr-26,29-Apr-26,18000,14000,4000,Urgent,Delivered,Bangalore,South,BlueDart,Debit Card,Suresh,No
+ORD1033,Neha Gupta,Headphones,Accessories,2,15-Jun-26,27-Jun-26,3-Jul-26,7000,4400,2600,Urgent,Pending,Jaipur,North,Ecom Express,Debit Card,Ravi,No
+ORD1034,Arjun Mehta,SSD 1TB,Storage,5,21-Mar-26,5-Apr-26,13-Apr-26,32500,22500,10000,Urgent,Pending,Delhi,North,Delhivery,UPI,Ravi,No
+ORD1035,Sneha Patel,Tablet,Electronics,5,10-Apr-26,28-Apr-26,8-May-26,90000,70000,20000,Urgent,In Transit,Hyderabad,South,BlueDart,UPI,Suresh,No
+ORD1036,Priiya Reddy,Headphones,Accessories,1,29-Jan-26,18-Feb-26,20-Feb-26,3500,2200,1300,Urgent,Delivered,Delhi,North,Delhivery,COD,Karthik,No
+ORD1037,Neha Gupta,Monitor,Electronics,2,31-May-26,1-Jun-26,5-Jun-26,36000,24000,12000,Urgent,In Transit,Pune,West,Delhivery,UPI,Suresh,No
+ORD1038,Priiya Reddy,Webcam,Accessories,2,22-May-26,25-May-26,31-May-26,4400,2400,2000,Urgent,Delivered,Delhi,North,DTDC,Credit Card,Ravi,No
+ORD1039,Rahul Sharma,SSD 1TB,Storage,5,18-Jun-26,23-Jun-26,1-Jul-26,32500,22500,10000,Can Wait,Delivered,Pune,West,DTDC,Debit Card,Anjali,No
+ORD1040,Anjali Rao,Keyboard,Accessories,4,8-Jun-26,15-Jun-26,25-Jun-26,10000,6000,4000,Can Wait,Delivered,Mumbai,West,BlueDart,COD,Ravi,No
+ORD1041,Anjali Rao,Laptop,Electronics,3,10-Apr-26,20-Apr-26,22-Apr-26,165000,120000,45000,Can Wait,Delivered,Hyderabad,South,Delhivery,COD,Ravi,No
+ORD1042,Priiya Reddy,Mouse,Accessories,4,4-Feb-26,16-Feb-26,20-Feb-26,4800,2800,2000,Urgent,In Transit,Pune,West,Delhivery,Credit Card,Ravi,No
+ORD1043,Kiran Das,SSD 1TB,Storage,1,10-Jun-26,25-Jun-26,1-Jul-26,6500,4500,2000,Can Wait,Delivered,Chennai,South,BlueDart,UPI,Anjali,No
+ORD1044,Kiran Das,Headphones,Accessories,3,6-Feb-26,24-Feb-26,4-Mar-26,10500,6600,3900,Can Wait,Scheduled,Mumbai,West,Ecom Express,Net Banking,Anjali,No
+ORD1045,Anjali Rao,SSD 1TB,Storage,4,20-May-26,9-Jun-26,19-Jun-26,26000,18000,8000,Can Wait,Returned,Hyderabad,South,Ecom Express,Debit Card,Priya,Yes
+ORD1046,Sneha Patel,Headphones,Accessories,1,28-Apr-26,29-Apr-26,1-May-26,3500,2200,1300,Urgent,In Transit,Jaipur,North,Ecom Express,COD,Anjali,No
+ORD1047,Vikram Singh,SSD 1TB,Storage,3,26-Jun-26,29-Jun-26,3-Jul-26,19500,13500,6000,Urgent,Scheduled,Mumbai,West,BlueDart,Credit Card,Suresh,No
+ORD1048,Rohit Verma,Smartphone,Electronics,2,14-May-26,19-May-26,25-May-26,50000,36000,14000,Urgent,Delivered,Kolkata,East,DTDC,UPI,Anjali,No
+ORD1049,Priiya Reddy,Laptop,Electronics,2,27-Apr-26,4-May-26,12-May-26,110000,80000,30000,Can Wait,Scheduled,Kolkata,East,Ecom Express,UPI,Anjali,No
+ORD1050,Rohit Verma,Keyboard,Accessories,4,14-Feb-26,24-Feb-26,6-Mar-26,10000,6000,4000,Urgent,Pending,Chennai,South,Ecom Express,UPI,Suresh,No
+ORD1051,Anjali Rao,Headphones,Accessories,1,26-Jan-26,7-Feb-26,9-Feb-26,3500,2200,1300,Urgent,Delivered,Hyderabad,South,Ecom Express,UPI,Anjali,No
+ORD1052,Amit Kumar,Tablet,Electronics,5,18-Feb-26,5-Mar-26,9-Mar-26,90000,70000,20000,Urgent,Delivered,Hyderabad,South,BlueDart,Net Banking,Suresh,No
+ORD1053,Neha Gupta,Headphones,Accessories,3,19-Mar-26,6-Apr-26,12-Apr-26,10500,6600,3900,Urgent,Scheduled,Bangalore,South,DTDC,Net Banking,Anjali,No
+ORD1054,Anjali Rao,Smartphone,Electronics,5,9-Mar-26,29-Mar-26,6-Apr-26,125000,90000,35000,Can Wait,Scheduled,Jaipur,North,Delhivery,Debit Card,Suresh,No
+ORD1055,Anjali Rao,SSD 1TB,Storage,5,22-Apr-26,23-Apr-26,3-May-26,32500,22500,10000,Urgent,Delivered,Hyderabad,South,Ecom Express,COD,Priya,No
+ORD1056,Vikram Singh,Monitor,Electronics,3,19-Jun-26,22-Jun-26,24-Jun-26,54000,36000,18000,Can Wait,Pending,Bangalore,South,DTDC,UPI,Priya,No
+ORD1057,Rahul Sharma,Tablet,Electronics,1,19-Feb-26,24-Feb-26,28-Feb-26,18000,14000,4000,Can Wait,In Transit,Mumbai,West,Ecom Express,Debit Card,Suresh,No
+ORD1058,Anjali Rao,Laptop,Electronics,5,22-Jun-26,29-Jun-26,5-Jul-26,275000,200000,75000,Can Wait,Delivered,Mumbai,West,Delhivery,UPI,Suresh,No
+ORD1059,Rohit Verma,Smartphone,Electronics,4,5-Jun-26,15-Jun-26,23-Jun-26,100000,72000,28000,Can Wait,Delivered,Kolkata,East,Ecom Express,Credit Card,Anjali,No
+ORD1060,Neha Gupta,Tablet,Electronics,3,28-Jan-26,9-Feb-26,19-Feb-26,54000,42000,12000,Can Wait,Scheduled,Ahmedabad,West,Delhivery,Net Banking,Suresh,No
+ORD1061,Anjali Rao,Smartphone,Electronics,5,17-Jan-26,1-Feb-26,3-Feb-26,125000,90000,35000,Can Wait,Scheduled,Ahmedabad,West,DTDC,UPI,Anjali,No
+ORD1062,Rahul Sharma,Tablet,Electronics,2,7-Jan-26,25-Jan-26,29-Jan-26,36000,28000,8000,Urgent,Scheduled,Kolkata,East,BlueDart,UPI,Anjali,No
+ORD1063,Anjali Rao,Monitor,Electronics,3,6-Jun-26,26-Jun-26,2-Jul-26,54000,36000,18000,Can Wait,In Transit,Chennai,South,DTDC,COD,Priya,No
+ORD1064,Priiya Reddy,Tablet,Electronics,2,3-Mar-26,4-Mar-26,12-Mar-26,36000,28000,8000,Can Wait,Delivered,Pune,West,BlueDart,Net Banking,Priya,No
+ORD1065,Kiran Das,Webcam,Accessories,4,5-Jan-26,8-Jan-26,18-Jan-26,8800,4800,4000,Urgent,Scheduled,Ahmedabad,West,BlueDart,Debit Card,Karthik,No
+ORD1066,Neha Gupta,Webcam,Accessories,5,29-Jun-26,4-Jul-26,6-Jul-26,11000,6000,5000,Can Wait,Delivered,Mumbai,West,Ecom Express,Debit Card,Ravi,No
+ORD1067,Vikram Singh,Mouse,Accessories,3,2-Jun-26,9-Jun-26,13-Jun-26,3600,2100,1500,Can Wait,Scheduled,Hyderabad,South,Delhivery,Debit Card,Ravi,No
+ORD1068,Sneha Patel,Tablet,Electronics,4,12-Jun-26,22-Jun-26,28-Jun-26,72000,56000,16000,Can Wait,Delivered,Kolkata,East,DTDC,Credit Card,Suresh,No
+ORD1069,Kiran Das,Printer,Office,4,30-Mar-26,11-Apr-26,19-Apr-26,34000,24000,10000,Can Wait,Delivered,Bangalore,South,BlueDart,Net Banking,Suresh,No
+ORD1070,Priiya Reddy,Laptop,Electronics,1,9-Jun-26,24-Jun-26,4-Jul-26,55000,40000,15000,Can Wait,Scheduled,Jaipur,North,DTDC,Net Banking,Ravi,No
+ORD1071,Amit Kumar,Keyboard,Accessories,5,17-Jan-26,4-Feb-26,6-Feb-26,12500,7500,5000,Urgent,Delivered,Hyderabad,South,BlueDart,Credit Card,Ravi,No
+ORD1072,Sneha Patel,Smartphone,Electronics,2,28-Feb-26,20-Mar-26,24-Mar-26,50000,36000,14000,Can Wait,Delivered,Mumbai,West,DTDC,UPI,Suresh,No
+ORD1073,Rohit Verma,Printer,Office,4,29-Mar-26,30-Mar-26,5-Apr-26,34000,24000,10000,Can Wait,Pending,Ahmedabad,West,BlueDart,Debit Card,Suresh,No
+ORD1074,Amit Kumar,Tablet,Electronics,2,3-May-26,6-May-26,14-May-26,36000,28000,8000,Urgent,Scheduled,Delhi,North,DTDC,COD,Suresh,No
+ORD1075,Rohit Verma,Tablet,Electronics,5,31-May-26,5-Jun-26,15-Jun-26,90000,70000,20000,Can Wait,In Transit,Bangalore,South,DTDC,UPI,Anjali,No
+ORD1076,Sneha Patel,Headphones,Accessories,3,25-Feb-26,4-Mar-26,6-Mar-26,10500,6600,3900,Can Wait,Pending,Chennai,South,Delhivery,UPI,Karthik,No
+ORD1077,Priiya Reddy,Webcam,Accessories,2,20-Feb-26,2-Mar-26,6-Mar-26,4400,2400,2000,Urgent,Delivered,Ahmedabad,West,Delhivery,Credit Card,Priya,No
+ORD1078,Sneha Patel,SSD 1TB,Storage,2,26-Feb-26,10-Mar-26,16-Mar-26,13000,9000,4000,Urgent,In Transit,Ahmedabad,West,Delhivery,Credit Card,Ravi,No
+ORD1079,Vikram Singh,Mouse,Accessories,3,8-May-26,23-May-26,31-May-26,3600,2100,1500,Urgent,Pending,Delhi,North,Ecom Express,UPI,Ravi,No
+ORD1080,Kiran Das,Webcam,Accessories,4,10-Mar-26,28-Mar-26,7-Apr-26,8800,4800,4000,Urgent,Scheduled,Hyderabad,South,Ecom Express,Credit Card,Anjali,No
+ORD1081,Rohit Verma,Monitor,Electronics,1,5-May-26,25-May-26,27-May-26,18000,12000,6000,Can Wait,Delivered,Kolkata,East,Ecom Express,UPI,Anjali,No
+ORD1082,Amit Kumar,SSD 1TB,Storage,5,4-Feb-26,5-Feb-26,9-Feb-26,32500,22500,10000,Urgent,Scheduled,Ahmedabad,West,Ecom Express,COD,Ravi,No
+ORD1083,Amit Kumar,Monitor,Electronics,3,4-Jan-26,7-Jan-26,13-Jan-26,54000,36000,18000,Urgent,Scheduled,Hyderabad,South,Delhivery,Credit Card,Suresh,No
+ORD1084,Anjali Rao,SSD 1TB,Storage,3,10-May-26,15-May-26,23-May-26,19500,13500,6000,Can Wait,Scheduled,Jaipur,North,Ecom Express,Debit Card,Ravi,No
+ORD1085,Anjali Rao,SSD 1TB,Storage,3,29-Jan-26,5-Feb-26,15-Feb-26,19500,13500,6000,Can Wait,Returned,Ahmedabad,West,DTDC,COD,Anjali,Yes
+ORD1086,Priiya Reddy,Smartphone,Electronics,2,12-May-26,22-May-26,24-May-26,50000,36000,14000,Urgent,Delivered,Kolkata,East,DTDC,Credit Card,Ravi,No
+ORD1087,Vikram Singh,SSD 1TB,Storage,2,30-Mar-26,11-Apr-26,15-Apr-26,13000,9000,4000,Urgent,Pending,Mumbai,West,Delhivery,UPI,Karthik,No
+ORD1088,Sneha Patel,Monitor,Electronics,3,28-May-26,12-Jun-26,18-Jun-26,54000,36000,18000,Can Wait,Scheduled,Kolkata,East,BlueDart,Net Banking,Anjali,No
+ORD1089,Neha Gupta,Keyboard,Accessories,3,17-Apr-26,5-May-26,13-May-26,7500,4500,3000,Can Wait,Pending,Jaipur,North,DTDC,UPI,Suresh,No
+ORD1090,Neha Gupta,Laptop,Electronics,5,18-Jan-26,7-Feb-26,17-Feb-26,275000,200000,75000,Can Wait,Pending,Hyderabad,South,Ecom Express,Credit Card,Karthik,No
+ORD1091,Priiya Reddy,Smartphone,Electronics,3,17-Jun-26,18-Jun-26,20-Jun-26,75000,54000,21000,Urgent,Scheduled,Delhi,North,Ecom Express,Debit Card,Ravi,No
+ORD1092,Sneha Patel,SSD 1TB,Storage,5,6-Jun-26,9-Jun-26,13-Jun-26,32500,22500,10000,Urgent,Scheduled,Pune,West,DTDC,UPI,Karthik,No
+ORD1093,Kiran Das,Laptop,Electronics,3,15-Jan-26,20-Jan-26,26-Jan-26,165000,120000,45000,Can Wait,Scheduled,Delhi,North,Ecom Express,COD,Karthik,No
+ORD1094,Kiran Das,SSD 1TB,Storage,1,8-Jun-26,15-Jun-26,23-Jun-26,6500,4500,2000,Can Wait,Pending,Kolkata,East,Ecom Express,UPI,Suresh,No
+ORD1095,Priiya Reddy,Printer,Office,4,18-Jun-26,28-Jun-26,8-Jul-26,34000,24000,10000,Urgent,Scheduled,Hyderabad,South,Delhivery,Net Banking,Ravi,No
+ORD1096,Rahul Sharma,SSD 1TB,Storage,5,10-Jun-26,22-Jun-26,24-Jun-26,32500,22500,10000,Can Wait,Scheduled,Hyderabad,South,DTDC,COD,Ravi,No
+ORD1097,Neha Gupta,Laptop,Electronics,1,5-Feb-26,20-Feb-26,24-Feb-26,55000,40000,15000,Can Wait,Delivered,Delhi,North,Delhivery,Debit Card,Anjali,No
+ORD1098,Neha Gupta,Printer,Office,3,16-Jun-26,4-Jul-26,10-Jul-26,25500,18000,7500,Can Wait,Pending,Jaipur,North,Delhivery,COD,Karthik,No
+ORD1099,Neha Gupta,Tablet,Electronics,1,24-Jun-26,14-Jul-26,22-Jul-26,18000,14000,4000,Urgent,In Transit,Jaipur,North,Delhivery,Debit Card,Ravi,No
+ORD1100,Arjun Mehta,Laptop,Electronics,1,18-Jun-26,19-Jun-26,29-Jun-26,55000,40000,15000,Urgent,Scheduled,Delhi,North,BlueDart,COD,Karthik,No
+ORD1101,Priiya Reddy,Tablet,Electronics,1,10-May-26,13-May-26,15-May-26,18000,14000,4000,Urgent,Delivered,Bangalore,South,DTDC,Credit Card,Ravi,No
+ORD1102,Arjun Mehta,SSD 1TB,Storage,5,17-May-26,22-May-26,26-May-26,32500,22500,10000,Can Wait,Delivered,Bangalore,South,BlueDart,Credit Card,Anjali,No
+ORD1103,Anjali Rao,Smartphone,Electronics,2,3-Apr-26,10-Apr-26,16-Apr-26,50000,36000,14000,Can Wait,Scheduled,Pune,West,DTDC,Debit Card,Suresh,No
+ORD1104,Rohit Verma,Keyboard,Accessories,1,4-Jun-26,14-Jun-26,22-Jun-26,2500,1500,1000,Can Wait,Delivered,Bangalore,South,BlueDart,COD,Suresh,No
+ORD1105,Priiya Reddy,Keyboard,Accessories,4,14-Jan-26,26-Jan-26,5-Feb-26,10000,6000,4000,Urgent,Delivered,Pune,West,DTDC,Net Banking,Priya,No
+ORD1106,Vikram Singh,Laptop,Electronics,1,15-Mar-26,30-Mar-26,1-Apr-26,55000,40000,15000,Can Wait,In Transit,Delhi,North,Ecom Express,COD,Suresh,No
+ORD1107,Priiya Reddy,Webcam,Accessories,4,22-Jun-26,10-Jul-26,14-Jul-26,8800,4800,4000,Urgent,Delivered,Ahmedabad,West,Delhivery,Debit Card,Ravi,No
+ORD1108,Rahul Sharma,Monitor,Electronics,1,6-Apr-26,26-Apr-26,2-May-26,18000,12000,6000,Urgent,Scheduled,Kolkata,East,DTDC,COD,Ravi,No
+ORD1109,Arjun Mehta,Laptop,Electronics,4,3-Mar-26,4-Mar-26,12-Mar-26,220000,160000,60000,Can Wait,Delivered,Bangalore,South,DTDC,Net Banking,Karthik,No
+ORD1110,Vikram Singh,Keyboard,Accessories,4,8-Mar-26,11-Mar-26,21-Mar-26,10000,6000,4000,Can Wait,Scheduled,Jaipur,North,Ecom Express,Net Banking,Karthik,No
+ORD1111,Arjun Mehta,Laptop,Electronics,3,8-Jun-26,13-Jun-26,15-Jun-26,165000,120000,45000,Urgent,Delivered,Delhi,North,Ecom Express,UPI,Priya,No
+ORD1112,Rohit Verma,SSD 1TB,Storage,4,15-Feb-26,22-Feb-26,26-Feb-26,26000,18000,8000,Urgent,Delivered,Hyderabad,South,Delhivery,Credit Card,Priya,No
+ORD1113,Amit Kumar,Keyboard,Accessories,3,22-Jun-26,2-Jul-26,8-Jul-26,7500,4500,3000,Can Wait,Delivered,Chennai,South,Ecom Express,Debit Card,Ravi,No
+ORD1114,Neha Gupta,Laptop,Electronics,4,11-Jun-26,23-Jun-26,1-Jul-26,220000,160000,60000,Can Wait,Delivered,Chennai,South,BlueDart,COD,Ravi,No
+ORD1115,Rohit Verma,Smartphone,Electronics,4,10-May-26,25-May-26,4-Jun-26,100000,72000,28000,Can Wait,Delivered,Chennai,South,DTDC,Net Banking,Priya,No
+ORD1116,Anjali Rao,Keyboard,Accessories,1,20-Jun-26,8-Jul-26,10-Jul-26,2500,1500,1000,Urgent,Delivered,Delhi,North,DTDC,Net Banking,Suresh,No
+ORD1117,Vikram Singh,Laptop,Electronics,5,18-Mar-26,7-Apr-26,11-Apr-26,275000,200000,75000,Can Wait,Pending,Chennai,South,DTDC,COD,Priya,No
+ORD1118,Amit Kumar,Laptop,Electronics,1,5-Mar-26,6-Mar-26,12-Mar-26,55000,40000,15000,Urgent,In Transit,Pune,West,BlueDart,Debit Card,Anjali,No
+ORD1119,Priiya Reddy,Keyboard,Accessories,2,2-Jan-26,5-Jan-26,13-Jan-26,5000,3000,2000,Can Wait,In Transit,Jaipur,North,Ecom Express,Credit Card,Karthik,No
+ORD1120,Kiran Das,Tablet,Electronics,5,22-Feb-26,27-Feb-26,9-Mar-26,90000,70000,20000,Can Wait,Scheduled,Hyderabad,South,DTDC,UPI,Ravi,No
+ORD1121,Priiya Reddy,Mouse,Accessories,5,13-Jan-26,20-Jan-26,22-Jan-26,6000,3500,2500,Can Wait,Pending,Chennai,South,BlueDart,Debit Card,Karthik,No
+ORD1122,Rahul Sharma,Keyboard,Accessories,3,22-Jun-26,2-Jul-26,6-Jul-26,7500,4500,3000,Can Wait,Delivered,Jaipur,North,Delhivery,UPI,Ravi,No
+ORD1123,Rahul Sharma,Keyboard,Accessories,4,20-Apr-26,2-May-26,8-May-26,10000,6000,4000,Can Wait,Delivered,Kolkata,East,DTDC,Credit Card,Anjali,No
+ORD1124,Arjun Mehta,Laptop,Electronics,4,10-Jun-26,25-Jun-26,3-Jul-26,220000,160000,60000,Can Wait,Scheduled,Bangalore,South,DTDC,UPI,Priya,No
+ORD1125,Neha Gupta,Smartphone,Electronics,4,8-Jun-26,26-Jun-26,6-Jul-26,100000,72000,28000,Can Wait,Scheduled,Mumbai,West,BlueDart,UPI,Anjali,No
+ORD1126,Vikram Singh,Keyboard,Accessories,2,25-Mar-26,14-Apr-26,16-Apr-26,5000,3000,2000,Urgent,Delivered,Bangalore,South,DTDC,Debit Card,Suresh,No
+ORD1127,Neha Gupta,Mouse,Accessories,1,5-Feb-26,6-Feb-26,10-Feb-26,1200,700,500,Can Wait,In Transit,Delhi,North,DTDC,Credit Card,Priya,No
+ORD1128,Vikram Singh,Printer,Office,4,11-May-26,14-May-26,20-May-26,34000,24000,10000,Urgent,Delivered,Kolkata,East,DTDC,COD,Anjali,No
+ORD1129,Vikram Singh,Laptop,Electronics,3,8-Apr-26,13-Apr-26,21-Apr-26,165000,120000,45000,Urgent,Delivered,Kolkata,East,DTDC,Net Banking,Karthik,No
+ORD1130,Rohit Verma,Smartphone,Electronics,1,13-Feb-26,20-Feb-26,2-Mar-26,25000,18000,7000,Urgent,In Transit,Delhi,North,DTDC,Net Banking,Karthik,No
+ORD1131,Rahul Sharma,Mouse,Accessories,1,10-Feb-26,20-Feb-26,22-Feb-26,1200,700,500,Urgent,Scheduled,Pune,West,Ecom Express,UPI,Ravi,No
+ORD1132,Arjun Mehta,Laptop,Electronics,3,28-Feb-26,12-Mar-26,16-Mar-26,165000,120000,45000,Can Wait,Delivered,Kolkata,East,Ecom Express,UPI,Karthik,No
+ORD1133,Rahul Sharma,Tablet,Electronics,3,20-Apr-26,5-May-26,11-May-26,54000,42000,12000,Urgent,Returned,Chennai,South,DTDC,COD,Karthik,Yes
+ORD1134,Kiran Das,Headphones,Accessories,5,28-Mar-26,15-Apr-26,23-Apr-26,17500,11000,6500,Urgent,Scheduled,Delhi,North,Delhivery,Net Banking,Karthik,No
+ORD1135,Sneha Patel,Webcam,Accessories,1,24-Jan-26,13-Feb-26,23-Feb-26,2200,1200,1000,Can Wait,Delivered,Chennai,South,Ecom Express,COD,Suresh,No
+ORD1136,Priiya Reddy,Smartphone,Electronics,1,17-Feb-26,18-Feb-26,20-Feb-26,25000,18000,7000,Urgent,Scheduled,Mumbai,West,BlueDart,Debit Card,Suresh,No
+ORD1137,Amit Kumar,Headphones,Accessories,2,10-Jun-26,13-Jun-26,17-Jun-26,7000,4400,2600,Urgent,Delivered,Chennai,South,Delhivery,UPI,Anjali,No
+ORD1138,Vikram Singh,Mouse,Accessories,2,8-Apr-26,13-Apr-26,19-Apr-26,2400,1400,1000,Can Wait,Scheduled,Kolkata,East,Delhivery,Credit Card,Suresh,No
+ORD1139,Neha Gupta,Printer,Office,5,10-Mar-26,17-Mar-26,25-Mar-26,42500,30000,12500,Urgent,Delivered,Mumbai,West,Ecom Express,COD,Anjali,No
+ORD1140,Priiya Reddy,Headphones,Accessories,4,7-Jan-26,17-Jan-26,27-Jan-26,14000,8800,5200,Urgent,Delivered,Pune,West,Ecom Express,Net Banking,Anjali,No
+ORD1141,Priiya Reddy,Printer,Office,2,28-Jun-26,10-Jul-26,12-Jul-26,17000,12000,5000,Can Wait,Scheduled,Bangalore,South,BlueDart,UPI,Ravi,No
+ORD1142,Amit Kumar,Smartphone,Electronics,1,26-Jun-26,11-Jul-26,15-Jul-26,25000,18000,7000,Urgent,Delivered,Hyderabad,South,DTDC,Net Banking,Ravi,No
+ORD1143,Rohit Verma,Printer,Office,1,24-Feb-26,14-Mar-26,20-Mar-26,8500,6000,2500,Can Wait,Delivered,Bangalore,South,DTDC,COD,Priya,No
+ORD1144,Anjali Rao,Monitor,Electronics,4,26-Jun-26,16-Jul-26,24-Jul-26,72000,48000,24000,Can Wait,Delivered,Hyderabad,South,Ecom Express,Credit Card,Ravi,No
+ORD1145,Arjun Mehta,Smartphone,Electronics,3,9-Jun-26,10-Jun-26,20-Jun-26,75000,54000,21000,Can Wait,Scheduled,Hyderabad,South,Delhivery,Net Banking,Karthik,No
+ORD1146,Anjali Rao,Tablet,Electronics,2,28-Jun-26,1-Jul-26,3-Jul-26,36000,28000,8000,Urgent,Scheduled,Pune,West,DTDC,Credit Card,Anjali,No
+ORD1147,Sneha Patel,Headphones,Accessories,3,8-Apr-26,13-Apr-26,17-Apr-26,10500,6600,3900,Urgent,Scheduled,Jaipur,North,DTDC,Debit Card,Anjali,No
+ORD1148,Rohit Verma,Mouse,Accessories,1,15-May-26,22-May-26,28-May-26,1200,700,500,Urgent,Pending,Bangalore,South,DTDC,UPI,Priya,No
+ORD1149,Priiya Reddy,Tablet,Electronics,3,6-Jun-26,16-Jun-26,24-Jun-26,54000,42000,12000,Can Wait,In Transit,Pune,West,BlueDart,UPI,Priya,No
+ORD1150,Rohit Verma,Laptop,Electronics,3,16-Mar-26,28-Mar-26,7-Apr-26,165000,120000,45000,Can Wait,Delivered,Mumbai,West,Delhivery,Credit Card,Suresh,No
+ORD1151,Arjun Mehta,Printer,Office,3,30-May-26,14-Jun-26,16-Jun-26,25500,18000,7500,Can Wait,Scheduled,Chennai,South,DTDC,Net Banking,Karthik,No
+ORD1152,Anjali Rao,Monitor,Electronics,2,7-Apr-26,25-Apr-26,29-Apr-26,36000,24000,12000,Urgent,In Transit,Pune,West,Delhivery,Net Banking,Anjali,No
+ORD1153,Arjun Mehta,Monitor,Electronics,2,18-Apr-26,8-May-26,14-May-26,36000,24000,12000,Can Wait,Pending,Pune,West,BlueDart,Net Banking,Karthik,No
+ORD1154,Arjun Mehta,Smartphone,Electronics,3,14-Feb-26,15-Feb-26,23-Feb-26,75000,54000,21000,Can Wait,Delivered,Chennai,South,DTDC,COD,Ravi,No
+ORD1155,Priiya Reddy,Smartphone,Electronics,2,31-Mar-26,3-Apr-26,13-Apr-26,50000,36000,14000,Can Wait,Delivered,Delhi,North,Delhivery,COD,Priya,No
+ORD1156,Vikram Singh,Webcam,Accessories,3,25-Apr-26,30-Apr-26,2-May-26,6600,3600,3000,Can Wait,Delivered,Kolkata,East,DTDC,COD,Ravi,No
+ORD1157,Arjun Mehta,Headphones,Accessories,1,24-Mar-26,31-Mar-26,4-Apr-26,3500,2200,1300,Urgent,Scheduled,Hyderabad,South,Delhivery,Net Banking,Ravi,No
+ORD1158,Rahul Sharma,Laptop,Electronics,4,2-Mar-26,12-Mar-26,18-Mar-26,220000,160000,60000,Can Wait,Delivered,Pune,West,BlueDart,COD,Suresh,No
+ORD1159,Amit Kumar,Keyboard,Accessories,1,4-Jan-26,16-Jan-26,24-Jan-26,2500,1500,1000,Urgent,Delivered,Delhi,North,BlueDart,UPI,Priya,No
+ORD1160,Sneha Patel,Smartphone,Electronics,5,4-Apr-26,19-Apr-26,29-Apr-26,125000,90000,35000,Can Wait,Scheduled,Bangalore,South,Ecom Express,Net Banking,Ravi,No
+ORD1161,Rahul Sharma,Webcam,Accessories,5,9-Jan-26,27-Jan-26,29-Jan-26,11000,6000,5000,Can Wait,Delivered,Delhi,North,Delhivery,COD,Ravi,No
+ORD1162,Anjali Rao,Smartphone,Electronics,2,7-Apr-26,27-Apr-26,1-May-26,50000,36000,14000,Urgent,Scheduled,Jaipur,North,BlueDart,COD,Suresh,No
+ORD1163,Rahul Sharma,Webcam,Accessories,5,25-Mar-26,26-Mar-26,1-Apr-26,11000,6000,5000,Can Wait,Pending,Hyderabad,South,BlueDart,COD,Priya,No
+ORD1164,Sneha Patel,Printer,Office,3,2-Jun-26,5-Jun-26,13-Jun-26,25500,18000,7500,Urgent,Delivered,Chennai,South,BlueDart,Debit Card,Suresh,No
+ORD1165,Sneha Patel,Headphones,Accessories,3,22-Apr-26,27-Apr-26,7-May-26,10500,6600,3900,Urgent,In Transit,Mumbai,West,Delhivery,Credit Card,Suresh,No
+ORD1166,Amit Kumar,Webcam,Accessories,2,18-Mar-26,25-Mar-26,27-Mar-26,4400,2400,2000,Can Wait,In Transit,Delhi,North,Ecom Express,Debit Card,Anjali,No
+ORD1167,Amit Kumar,Tablet,Electronics,2,11-May-26,21-May-26,25-May-26,36000,28000,8000,Can Wait,Scheduled,Delhi,North,DTDC,Debit Card,Ravi,No
+ORD1168,Neha Gupta,Monitor,Electronics,4,3-Jan-26,15-Jan-26,21-Jan-26,72000,48000,24000,Urgent,Delivered,Jaipur,North,BlueDart,Debit Card,Suresh,No
+ORD1169,Kiran Das,Smartphone,Electronics,4,4-May-26,19-May-26,27-May-26,100000,72000,28000,Can Wait,Scheduled,Mumbai,West,Delhivery,Credit Card,Priya,No
+ORD1170,Arjun Mehta,Keyboard,Accessories,2,26-Mar-26,13-Apr-26,23-Apr-26,5000,3000,2000,Urgent,Delivered,Chennai,South,Ecom Express,Debit Card,Anjali,No
+ORD1171,Arjun Mehta,Keyboard,Accessories,5,5-Jun-26,25-Jun-26,27-Jun-26,12500,7500,5000,Can Wait,In Transit,Hyderabad,South,Ecom Express,Credit Card,Priya,No
+ORD1172,Amit Kumar,Monitor,Electronics,4,17-Jun-26,18-Jun-26,22-Jun-26,72000,48000,24000,Can Wait,In Transit,Delhi,North,DTDC,UPI,Ravi,No
+ORD1173,Kiran Das,Keyboard,Accessories,4,5-Mar-26,8-Mar-26,14-Mar-26,10000,6000,4000,Can Wait,Pending,Kolkata,East,DTDC,Credit Card,Karthik,No
+ORD1174,Amit Kumar,Mouse,Accessories,3,6-Feb-26,11-Feb-26,19-Feb-26,3600,2100,1500,Can Wait,In Transit,Hyderabad,South,DTDC,Debit Card,Karthik,No
+ORD1175,Arjun Mehta,Headphones,Accessories,1,24-Apr-26,1-May-26,11-May-26,3500,2200,1300,Urgent,Pending,Chennai,South,DTDC,UPI,Ravi,No
+ORD1176,Kiran Das,Mouse,Accessories,2,15-Jan-26,25-Jan-26,27-Jan-26,2400,1400,1000,Urgent,Delivered,Pune,West,Delhivery,UPI,Suresh,No
+ORD1177,Anjali Rao,Laptop,Electronics,1,18-May-26,30-May-26,3-Jun-26,55000,40000,15000,Can Wait,Scheduled,Kolkata,East,Delhivery,Credit Card,Priya,No
+ORD1178,Rohit Verma,Webcam,Accessories,4,10-May-26,25-May-26,31-May-26,8800,4800,4000,Urgent,In Transit,Chennai,South,BlueDart,COD,Priya,No
+ORD1179,Kiran Das,Headphones,Accessories,1,10-Jun-26,28-Jun-26,6-Jul-26,3500,2200,1300,Can Wait,Pending,Hyderabad,South,Delhivery,Debit Card,Ravi,No
+ORD1180,Rohit Verma,Webcam,Accessories,1,19-Mar-26,8-Apr-26,18-Apr-26,2200,1200,1000,Urgent,Delivered,Chennai,South,Delhivery,Debit Card,Ravi,No
+ORD1181,Arjun Mehta,Keyboard,Accessories,1,12-Jun-26,13-Jun-26,15-Jun-26,2500,1500,1000,Urgent,Pending,Delhi,North,Ecom Express,Debit Card,Anjali,No
+ORD1182,Amit Kumar,Laptop,Electronics,5,16-Jan-26,19-Jan-26,23-Jan-26,275000,200000,75000,Urgent,Scheduled,Kolkata,East,Ecom Express,Debit Card,Suresh,No
+ORD1183,Rahul Sharma,Monitor,Electronics,4,16-May-26,21-May-26,27-May-26,72000,48000,24000,Can Wait,In Transit,Delhi,North,Delhivery,Credit Card,Karthik,No
+ORD1184,Kiran Das,Mouse,Accessories,4,1-Mar-26,8-Mar-26,16-Mar-26,4800,2800,2000,Can Wait,Scheduled,Mumbai,West,BlueDart,Debit Card,Suresh,No
+ORD1185,Kiran Das,Tablet,Electronics,3,26-Jan-26,5-Feb-26,15-Feb-26,54000,42000,12000,Can Wait,In Transit,Kolkata,East,Delhivery,Debit Card,Ravi,No
+ORD1186,Priiya Reddy,Headphones,Accessories,2,3-Mar-26,15-Mar-26,17-Mar-26,7000,4400,2600,Can Wait,In Transit,Pune,West,Ecom Express,Net Banking,Suresh,No
+ORD1187,Anjali Rao,Keyboard,Accessories,2,12-Apr-26,27-Apr-26,1-May-26,5000,3000,2000,Urgent,Scheduled,Hyderabad,South,Delhivery,COD,Suresh,No
+ORD1188,Rahul Sharma,Headphones,Accessories,3,22-Jan-26,9-Feb-26,15-Feb-26,10500,6600,3900,Urgent,Scheduled,Mumbai,West,Delhivery,UPI,Karthik,No
+ORD1189,Neha Gupta,Webcam,Accessories,2,29-Jan-26,18-Feb-26,26-Feb-26,4400,2400,2000,Urgent,Pending,Delhi,North,Delhivery,Credit Card,Priya,No
+ORD1190,Vikram Singh,SSD 1TB,Storage,5,5-Apr-26,6-Apr-26,16-Apr-26,32500,22500,10000,Can Wait,Scheduled,Ahmedabad,West,DTDC,COD,Ravi,No
+ORD1191,Neha Gupta,Mouse,Accessories,2,6-Jan-26,9-Jan-26,11-Jan-26,2400,1400,1000,Urgent,Delivered,Bangalore,South,Delhivery,Credit Card,Anjali,No
+ORD1192,Neha Gupta,Keyboard,Accessories,1,19-May-26,24-May-26,28-May-26,2500,1500,1000,Can Wait,Delivered,Ahmedabad,West,Delhivery,Debit Card,Ravi,No
+ORD1193,Arjun Mehta,Mouse,Accessories,3,7-Jun-26,14-Jun-26,20-Jun-26,3600,2100,1500,Urgent,Returned,Delhi,North,Delhivery,UPI,Anjali,Yes
+ORD1194,Sneha Patel,Mouse,Accessories,3,26-Feb-26,8-Mar-26,16-Mar-26,3600,2100,1500,Can Wait,Delivered,Bangalore,South,DTDC,COD,Karthik,No
+ORD1195,Rohit Verma,Tablet,Electronics,3,26-Apr-26,8-May-26,18-May-26,54000,42000,12000,Urgent,Delivered,Pune,West,Ecom Express,UPI,Priya,No
+ORD1196,Rohit Verma,Keyboard,Accessories,2,11-Feb-26,26-Feb-26,28-Feb-26,5000,3000,2000,Can Wait,Scheduled,Bangalore,South,Delhivery,Credit Card,Ravi,No
+ORD1197,Kiran Das,Headphones,Accessories,1,25-Mar-26,12-Apr-26,16-Apr-26,3500,2200,1300,Can Wait,Delivered,Pune,West,BlueDart,Debit Card,Karthik,No
+ORD1198,Kiran Das,Webcam,Accessories,5,4-Jan-26,24-Jan-26,30-Jan-26,11000,6000,5000,Urgent,In Transit,Kolkata,East,Delhivery,UPI,Priya,No
+ORD1199,Vikram Singh,Laptop,Electronics,4,4-Mar-26,5-Mar-26,13-Mar-26,220000,160000,60000,Urgent,Delivered,Mumbai,West,BlueDart,Credit Card,Anjali,No
+ORD1200,Kiran Das,Monitor,Electronics,2,28-Mar-26,31-Mar-26,10-Apr-26,36000,24000,12000,Can Wait,In Transit,Kolkata,East,Delhivery,COD,Karthik,No
+ORD1201,Rahul Sharma,Webcam,Accessories,4,16-Feb-26,21-Feb-26,23-Feb-26,8800,4800,4000,Can Wait,Delivered,Bangalore,South,Delhivery,Debit Card,Priya,No
+ORD1202,Anjali Rao,Webcam,Accessories,5,13-Feb-26,20-Feb-26,24-Feb-26,11000,6000,5000,Can Wait,Delivered,Mumbai,West,DTDC,Credit Card,Priya,No
+ORD1203,Rohit Verma,Tablet,Electronics,3,28-Jan-26,7-Feb-26,13-Feb-26,54000,42000,12000,Can Wait,Scheduled,Chennai,South,BlueDart,Net Banking,Ravi,No
+ORD1204,Priiya Reddy,Laptop,Electronics,3,17-Jun-26,29-Jun-26,7-Jul-26,165000,120000,45000,Can Wait,Pending,Delhi,North,DTDC,COD,Anjali,No
+ORD1205,Kiran Das,Mouse,Accessories,4,16-Mar-26,31-Mar-26,10-Apr-26,4800,2800,2000,Urgent,Returned,Hyderabad,South,DTDC,Debit Card,Anjali,Yes
+ORD1206,Arjun Mehta,Headphones,Accessories,4,2-Jan-26,20-Jan-26,22-Jan-26,14000,8800,5200,Urgent,Returned,Mumbai,West,BlueDart,Debit Card,Ravi,Yes
+ORD1207,Priiya Reddy,SSD 1TB,Storage,2,7-Mar-26,27-Mar-26,31-Mar-26,13000,9000,4000,Urgent,Delivered,Jaipur,North,BlueDart,Credit Card,Anjali,No
+ORD1208,Vikram Singh,Keyboard,Accessories,2,19-Feb-26,20-Feb-26,26-Feb-26,5000,3000,2000,Can Wait,Delivered,Delhi,North,Ecom Express,Credit Card,Karthik,No
+ORD1209,Vikram Singh,Smartphone,Electronics,1,28-Jan-26,31-Jan-26,8-Feb-26,25000,18000,7000,Can Wait,Pending,Jaipur,North,DTDC,Net Banking,Anjali,No
+ORD1210,Neha Gupta,Monitor,Electronics,2,2-Jun-26,7-Jun-26,17-Jun-26,36000,24000,12000,Can Wait,Pending,Bangalore,South,BlueDart,Net Banking,Ravi,No
+ORD1211,Rahul Sharma,Smartphone,Electronics,3,13-Feb-26,20-Feb-26,22-Feb-26,75000,54000,21000,Can Wait,Delivered,Bangalore,South,Ecom Express,COD,Priya,No
+ORD1212,Rahul Sharma,Headphones,Accessories,1,21-Feb-26,3-Mar-26,7-Mar-26,3500,2200,1300,Urgent,Delivered,Ahmedabad,West,DTDC,Net Banking,Karthik,No
+ORD1213,Kiran Das,Printer,Office,1,8-Jan-26,20-Jan-26,26-Jan-26,8500,6000,2500,Urgent,Delivered,Ahmedabad,West,Ecom Express,Credit Card,Karthik,No
+ORD1214,Rohit Verma,Monitor,Electronics,4,19-Apr-26,4-May-26,12-May-26,72000,48000,24000,Can Wait,Delivered,Kolkata,East,Ecom Express,Credit Card,Anjali,No
+ORD1215,Neha Gupta,SSD 1TB,Storage,3,25-Jun-26,13-Jul-26,23-Jul-26,19500,13500,6000,Can Wait,Scheduled,Jaipur,North,Ecom Express,COD,Karthik,No
+ORD1216,Rahul Sharma,Mouse,Accessories,5,19-Apr-26,9-May-26,11-May-26,6000,3500,2500,Can Wait,Delivered,Kolkata,East,DTDC,Debit Card,Priya,No
+ORD1217,Neha Gupta,Mouse,Accessories,1,14-Mar-26,15-Mar-26,19-Mar-26,1200,700,500,Urgent,Returned,Mumbai,West,Ecom Express,Credit Card,Suresh,Yes
+ORD1218,Anjali Rao,Webcam,Accessories,5,15-Feb-26,18-Feb-26,24-Feb-26,11000,6000,5000,Can Wait,Pending,Jaipur,North,Delhivery,COD,Karthik,No
+ORD1219,Kiran Das,Monitor,Electronics,4,24-May-26,29-May-26,6-Jun-26,72000,48000,24000,Can Wait,Scheduled,Chennai,South,BlueDart,Credit Card,Anjali,No
+ORD1220,Anjali Rao,SSD 1TB,Storage,4,13-Jan-26,20-Jan-26,30-Jan-26,26000,18000,8000,Can Wait,Delivered,Pune,West,DTDC,Credit Card,Ravi,No
+ORD1221,Arjun Mehta,Printer,Office,1,15-Jan-26,25-Jan-26,27-Jan-26,8500,6000,2500,Can Wait,Delivered,Jaipur,North,BlueDart,COD,Karthik,No
+ORD1222,Kiran Das,Laptop,Electronics,3,19-Jan-26,31-Jan-26,4-Feb-26,165000,120000,45000,Can Wait,In Transit,Chennai,South,BlueDart,Debit Card,Ravi,No
+ORD1223,Priiya Reddy,Tablet,Electronics,1,6-May-26,21-May-26,27-May-26,18000,14000,4000,Urgent,Scheduled,Kolkata,East,Ecom Express,COD,Anjali,No
+ORD1224,Rohit Verma,SSD 1TB,Storage,4,15-Jun-26,3-Jul-26,11-Jul-26,26000,18000,8000,Can Wait,Pending,Hyderabad,South,Delhivery,UPI,Karthik,No
+ORD1225,Sneha Patel,Printer,Office,4,14-Mar-26,3-Apr-26,13-Apr-26,34000,24000,10000,Can Wait,Scheduled,Chennai,South,Delhivery,Net Banking,Karthik,No
+ORD1226,Arjun Mehta,Headphones,Accessories,5,23-Jan-26,24-Jan-26,26-Jan-26,17500,11000,6500,Can Wait,Delivered,Chennai,South,DTDC,COD,Karthik,No
+ORD1227,Priiya Reddy,SSD 1TB,Storage,4,7-May-26,10-May-26,14-May-26,26000,18000,8000,Urgent,Scheduled,Kolkata,East,BlueDart,Debit Card,Priya,No
+ORD1228,Rahul Sharma,Keyboard,Accessories,3,29-Jun-26,4-Jul-26,10-Jul-26,7500,4500,3000,Can Wait,Delivered,Delhi,North,Ecom Express,Debit Card,Suresh,No
+ORD1229,Kiran Das,Mouse,Accessories,1,8-May-26,15-May-26,23-May-26,1200,700,500,Can Wait,Scheduled,Delhi,North,BlueDart,Net Banking,Suresh,No
+ORD1230,Sneha Patel,Tablet,Electronics,5,3-Mar-26,13-Mar-26,23-Mar-26,90000,70000,20000,Can Wait,Scheduled,Kolkata,East,DTDC,COD,Suresh,No
+ORD1231,Priiya Reddy,Printer,Office,3,15-Jan-26,27-Jan-26,29-Jan-26,25500,18000,7500,Can Wait,Delivered,Hyderabad,South,BlueDart,Credit Card,Priya,No
+ORD1232,Amit Kumar,Printer,Office,1,17-May-26,1-Jun-26,5-Jun-26,8500,6000,2500,Urgent,In Transit,Mumbai,West,Delhivery,Net Banking,Suresh,No
+ORD1233,Anjali Rao,SSD 1TB,Storage,2,19-Apr-26,7-May-26,13-May-26,13000,9000,4000,Can Wait,Scheduled,Hyderabad,South,DTDC,UPI,Suresh,No
+ORD1234,Anjali Rao,Tablet,Electronics,2,1-Feb-26,21-Feb-26,1-Mar-26,36000,28000,8000,Urgent,Returned,Hyderabad,South,BlueDart,Debit Card,Karthik,Yes
+ORD1235,Rohit Verma,Tablet,Electronics,5,9-Mar-26,10-Mar-26,20-Mar-26,90000,70000,20000,Urgent,Scheduled,Chennai,South,DTDC,Credit Card,Ravi,No
+ORD1236,Rahul Sharma,Tablet,Electronics,4,10-Apr-26,13-Apr-26,15-Apr-26,72000,56000,16000,Urgent,Returned,Mumbai,West,BlueDart,Credit Card,Ravi,Yes
+ORD1237,Sneha Patel,Webcam,Accessories,2,8-Jun-26,13-Jun-26,17-Jun-26,4400,2400,2000,Urgent,Delivered,Mumbai,West,BlueDart,UPI,Ravi,No
+ORD1238,Amit Kumar,Monitor,Electronics,1,28-Jun-26,5-Jul-26,11-Jul-26,18000,12000,6000,Urgent,Delivered,Chennai,South,Delhivery,Debit Card,Suresh,No
+ORD1239,Kiran Das,Mouse,Accessories,4,11-Mar-26,21-Mar-26,29-Mar-26,4800,2800,2000,Can Wait,Delivered,Hyderabad,South,Ecom Express,COD,Suresh,No
+ORD1240,Amit Kumar,Printer,Office,2,24-May-26,5-Jun-26,15-Jun-26,17000,12000,5000,Can Wait,In Transit,Delhi,North,BlueDart,COD,Anjali,No
+ORD1241,Neha Gupta,SSD 1TB,Storage,2,8-Mar-26,23-Mar-26,25-Mar-26,13000,9000,4000,Can Wait,In Transit,Pune,West,Ecom Express,COD,Karthik,No
+ORD1242,Priiya Reddy,SSD 1TB,Storage,2,2-Jan-26,20-Jan-26,24-Jan-26,13000,9000,4000,Can Wait,In Transit,Bangalore,South,Delhivery,Net Banking,Karthik,No
+ORD1243,Kiran Das,Laptop,Electronics,2,27-May-26,16-Jun-26,22-Jun-26,110000,80000,30000,Can Wait,Delivered,Ahmedabad,West,Delhivery,Credit Card,Ravi,No
+ORD1244,Vikram Singh,Printer,Office,3,22-Apr-26,23-Apr-26,1-May-26,25500,18000,7500,Can Wait,Scheduled,Chennai,South,DTDC,Credit Card,Anjali,No
+ORD1245,Priiya Reddy,Tablet,Electronics,4,28-Jan-26,31-Jan-26,10-Feb-26,72000,56000,16000,Urgent,In Transit,Ahmedabad,West,DTDC,UPI,Anjali,No
+ORD1246,Amit Kumar,Smartphone,Electronics,5,2-Jun-26,7-Jun-26,9-Jun-26,125000,90000,35000,Can Wait,Scheduled,Chennai,South,DTDC,Credit Card,Anjali,No
+ORD1247,Anjali Rao,Printer,Office,2,7-Jan-26,14-Jan-26,18-Jan-26,17000,12000,5000,Urgent,Delivered,Mumbai,West,Delhivery,Credit Card,Ravi,No
+ORD1248,Vikram Singh,Headphones,Accessories,3,23-May-26,2-Jun-26,8-Jun-26,10500,6600,3900,Can Wait,Scheduled,Mumbai,West,BlueDart,Net Banking,Ravi,No
+ORD1249,Rahul Sharma,Keyboard,Accessories,4,23-Jan-26,4-Feb-26,12-Feb-26,10000,6000,4000,Can Wait,Scheduled,Pune,West,DTDC,Net Banking,Karthik,No
+ORD1250,Kiran Das,SSD 1TB,Storage,4,10-Mar-26,25-Mar-26,4-Apr-26,26000,18000,8000,Can Wait,In Transit,Pune,West,Ecom Express,COD,Karthik,No
+ORD1251,Rohit Verma,Printer,Office,2,26-Mar-26,13-Apr-26,15-Apr-26,17000,12000,5000,Can Wait,Scheduled,Jaipur,North,BlueDart,Credit Card,Anjali,No
+ORD1252,Neha Gupta,Printer,Office,3,9-Feb-26,1-Mar-26,5-Mar-26,25500,18000,7500,Urgent,Returned,Ahmedabad,West,Delhivery,COD,Suresh,Yes
+ORD1253,Anjali Rao,Laptop,Electronics,5,20-Jun-26,21-Jun-26,27-Jun-26,275000,200000,75000,Can Wait,Scheduled,Pune,West,Ecom Express,UPI,Ravi,No
+ORD1254,Rohit Verma,Laptop,Electronics,5,29-Jun-26,2-Jul-26,10-Jul-26,275000,200000,75000,Urgent,Pending,Mumbai,West,Delhivery,Debit Card,Karthik,No
+ORD1255,Kiran Das,Smartphone,Electronics,1,8-Jan-26,13-Jan-26,23-Jan-26,25000,18000,7000,Urgent,Delivered,Pune,West,DTDC,UPI,Suresh,No
+ORD1256,Sneha Patel,Headphones,Accessories,3,4-Feb-26,11-Feb-26,13-Feb-26,10500,6600,3900,Can Wait,Scheduled,Hyderabad,South,BlueDart,Debit Card,Anjali,No
+ORD1257,Amit Kumar,Monitor,Electronics,5,27-Feb-26,9-Mar-26,13-Mar-26,90000,60000,30000,Can Wait,Pending,Delhi,North,BlueDart,COD,Priya,No
+ORD1258,Anjali Rao,Keyboard,Accessories,5,3-Feb-26,15-Feb-26,21-Feb-26,12500,7500,5000,Urgent,Delivered,Bangalore,South,BlueDart,Debit Card,Ravi,No
+ORD1259,Sneha Patel,Laptop,Electronics,5,14-Feb-26,1-Mar-26,9-Mar-26,275000,200000,75000,Can Wait,In Transit,Delhi,North,DTDC,Debit Card,Anjali,No
+ORD1260,Vikram Singh,Printer,Office,5,8-May-26,26-May-26,5-Jun-26,42500,30000,12500,Can Wait,Delivered,Chennai,South,Ecom Express,UPI,Priya,No
+ORD1261,Amit Kumar,Mouse,Accessories,1,14-Apr-26,4-May-26,6-May-26,1200,700,500,Urgent,Scheduled,Chennai,South,DTDC,Net Banking,Karthik,No
+ORD1262,Arjun Mehta,Headphones,Accessories,5,14-Feb-26,15-Feb-26,19-Feb-26,17500,11000,6500,Urgent,Scheduled,Ahmedabad,West,Delhivery,Debit Card,Suresh,No
+ORD1263,Rahul Sharma,Keyboard,Accessories,4,26-Mar-26,29-Mar-26,4-Apr-26,10000,6000,4000,Can Wait,Delivered,Mumbai,West,DTDC,UPI,Ravi,No
+ORD1264,Rohit Verma,Monitor,Electronics,2,14-May-26,19-May-26,27-May-26,36000,24000,12000,Urgent,Delivered,Mumbai,West,Ecom Express,Net Banking,Ravi,No
+ORD1265,Rohit Verma,Monitor,Electronics,1,15-May-26,22-May-26,1-Jun-26,18000,12000,6000,Urgent,Scheduled,Hyderabad,South,Delhivery,Debit Card,Anjali,No
+ORD1266,Anjali Rao,Webcam,Accessories,5,1-May-26,11-May-26,13-May-26,11000,6000,5000,Can Wait,Delivered,Kolkata,East,Ecom Express,Net Banking,Karthik,No
+ORD1267,Neha Gupta,Monitor,Electronics,3,6-Feb-26,18-Feb-26,22-Feb-26,54000,36000,18000,Urgent,Delivered,Delhi,North,Delhivery,Credit Card,Karthik,No
+ORD1268,Priiya Reddy,Laptop,Electronics,4,8-Jan-26,23-Jan-26,29-Jan-26,220000,160000,60000,Can Wait,Delivered,Pune,West,Ecom Express,Net Banking,Ravi,No
+ORD1269,Vikram Singh,Monitor,Electronics,5,10-Jan-26,28-Jan-26,5-Feb-26,90000,60000,30000,Can Wait,In Transit,Bangalore,South,Delhivery,Debit Card,Ravi,No
+ORD1270,Amit Kumar,Smartphone,Electronics,5,19-May-26,8-Jun-26,18-Jun-26,125000,90000,35000,Urgent,In Transit,Bangalore,South,Ecom Express,Net Banking,Ravi,No
+ORD1271,Priiya Reddy,Monitor,Electronics,5,6-Feb-26,7-Feb-26,9-Feb-26,90000,60000,30000,Can Wait,Delivered,Ahmedabad,West,BlueDart,COD,Anjali,No
+ORD1272,Rohit Verma,Webcam,Accessories,4,14-Feb-26,17-Feb-26,21-Feb-26,8800,4800,4000,Can Wait,Delivered,Chennai,South,BlueDart,Debit Card,Karthik,No
+ORD1273,Amit Kumar,Smartphone,Electronics,2,10-May-26,15-May-26,21-May-26,50000,36000,14000,Can Wait,Scheduled,Mumbai,West,Delhivery,Net Banking,Ravi,No
+ORD1274,Rohit Verma,Tablet,Electronics,5,23-Apr-26,30-Apr-26,8-May-26,90000,70000,20000,Can Wait,Scheduled,Jaipur,North,Ecom Express,Credit Card,Ravi,No
+ORD1275,Amit Kumar,Printer,Office,4,31-Mar-26,10-Apr-26,20-Apr-26,34000,24000,10000,Urgent,Scheduled,Pune,West,Delhivery,Debit Card,Ravi,No
+ORD1276,Amit Kumar,Headphones,Accessories,5,28-May-26,9-Jun-26,11-Jun-26,17500,11000,6500,Can Wait,Returned,Kolkata,East,Ecom Express,Net Banking,Priya,Yes
+ORD1277,Neha Gupta,Webcam,Accessories,3,16-Apr-26,1-May-26,5-May-26,6600,3600,3000,Can Wait,In Transit,Mumbai,West,Ecom Express,Credit Card,Suresh,No
+ORD1278,Kiran Das,Headphones,Accessories,1,4-Feb-26,22-Feb-26,28-Feb-26,3500,2200,1300,Can Wait,Delivered,Mumbai,West,Ecom Express,Net Banking,Suresh,No
+ORD1279,Anjali Rao,Headphones,Accessories,2,21-Jan-26,10-Feb-26,18-Feb-26,7000,4400,2600,Can Wait,In Transit,Delhi,North,DTDC,COD,Karthik,No
+ORD1280,Neha Gupta,Headphones,Accessories,1,12-Jan-26,13-Jan-26,23-Jan-26,3500,2200,1300,Can Wait,Pending,Hyderabad,South,DTDC,Credit Card,Priya,No
+ORD1281,Sneha Patel,Headphones,Accessories,4,15-Apr-26,18-Apr-26,20-Apr-26,14000,8800,5200,Can Wait,Delivered,Kolkata,East,DTDC,COD,Anjali,No
+ORD1282,Vikram Singh,Tablet,Electronics,3,10-Feb-26,15-Feb-26,19-Feb-26,54000,42000,12000,Can Wait,Delivered,Hyderabad,South,Ecom Express,Credit Card,Suresh,No
+ORD1283,Priiya Reddy,Smartphone,Electronics,3,27-Mar-26,3-Apr-26,9-Apr-26,75000,54000,21000,Can Wait,Scheduled,Mumbai,West,DTDC,Net Banking,Karthik,No
+ORD1284,Vikram Singh,Monitor,Electronics,1,29-May-26,8-Jun-26,16-Jun-26,18000,12000,6000,Urgent,Pending,Kolkata,East,Delhivery,UPI,Anjali,No
+ORD1285,Rohit Verma,Headphones,Accessories,2,2-Mar-26,14-Mar-26,24-Mar-26,7000,4400,2600,Urgent,In Transit,Chennai,South,Delhivery,Credit Card,Karthik,No
+ORD1286,Rohit Verma,Monitor,Electronics,5,15-Jan-26,30-Jan-26,1-Feb-26,90000,60000,30000,Urgent,In Transit,Hyderabad,South,DTDC,Net Banking,Priya,No
+ORD1287,Neha Gupta,Keyboard,Accessories,3,14-Jun-26,2-Jul-26,6-Jul-26,7500,4500,3000,Can Wait,In Transit,Hyderabad,South,Delhivery,COD,Suresh,No
+ORD1288,Vikram Singh,Headphones,Accessories,4,25-May-26,14-Jun-26,20-Jun-26,14000,8800,5200,Can Wait,Scheduled,Kolkata,East,Delhivery,COD,Karthik,No
+ORD1289,Neha Gupta,Headphones,Accessories,3,18-May-26,19-May-26,27-May-26,10500,6600,3900,Urgent,Scheduled,Bangalore,South,BlueDart,Credit Card,Priya,No
+ORD1290,Rohit Verma,Smartphone,Electronics,1,22-Feb-26,25-Feb-26,7-Mar-26,25000,18000,7000,Urgent,Scheduled,Jaipur,North,Delhivery,Credit Card,Anjali,No
+ORD1291,Vikram Singh,Keyboard,Accessories,2,3-Feb-26,8-Feb-26,10-Feb-26,5000,3000,2000,Can Wait,Delivered,Ahmedabad,West,Ecom Express,COD,Karthik,No
+ORD1292,Arjun Mehta,Laptop,Electronics,5,24-Mar-26,31-Mar-26,4-Apr-26,275000,200000,75000,Can Wait,Delivered,Jaipur,North,Delhivery,UPI,Priya,No
+ORD1293,Sneha Patel,Tablet,Electronics,4,31-Jan-26,10-Feb-26,16-Feb-26,72000,56000,16000,Urgent,In Transit,Chennai,South,BlueDart,Credit Card,Ravi,No
+ORD1294,Priiya Reddy,Laptop,Electronics,4,12-Jan-26,24-Jan-26,1-Feb-26,220000,160000,60000,Can Wait,Scheduled,Bangalore,South,Ecom Express,Credit Card,Priya,No
+ORD1295,Rahul Sharma,Smartphone,Electronics,3,25-May-26,9-Jun-26,19-Jun-26,75000,54000,21000,Urgent,Pending,Chennai,South,BlueDart,UPI,Ravi,No
+ORD1296,Vikram Singh,Tablet,Electronics,1,22-Mar-26,9-Apr-26,11-Apr-26,18000,14000,4000,Can Wait,Pending,Kolkata,East,Delhivery,Debit Card,Ravi,No
+ORD1297,Neha Gupta,Monitor,Electronics,4,16-Apr-26,6-May-26,10-May-26,72000,48000,24000,Can Wait,Scheduled,Mumbai,West,Ecom Express,Debit Card,Suresh,No
+ORD1298,Vikram Singh,Headphones,Accessories,3,11-Jun-26,12-Jun-26,18-Jun-26,10500,6600,3900,Urgent,Delivered,Chennai,South,BlueDart,Debit Card,Priya,No
+ORD1299,Anjali Rao,Monitor,Electronics,4,23-Jun-26,26-Jun-26,4-Jul-26,72000,48000,24000,Can Wait,Delivered,Delhi,North,Ecom Express,Debit Card,Suresh,No
+ORD1300,Arjun Mehta,Headphones,Accessories,2,20-Mar-26,25-Mar-26,4-Apr-26,7000,4400,2600,Can Wait,Returned,Kolkata,East,BlueDart,COD,Suresh,Yes
+ORD1301,Kiran Das,Printer,Office,2,9-Jan-26,16-Jan-26,18-Jan-26,17000,12000,5000,Can Wait,In Transit,Hyderabad,South,Delhivery,UPI,Karthik,No
+ORD1302,Sneha Patel,Printer,Office,2,25-Apr-26,5-May-26,9-May-26,17000,12000,5000,Can Wait,Scheduled,Mumbai,West,BlueDart,Credit Card,Anjali,No
+ORD1303,Arjun Mehta,Headphones,Accessories,2,13-May-26,25-May-26,31-May-26,7000,4400,2600,Can Wait,Returned,Mumbai,West,DTDC,UPI,Karthik,Yes
+ORD1304,Sneha Patel,SSD 1TB,Storage,4,9-May-26,24-May-26,1-Jun-26,26000,18000,8000,Can Wait,In Transit,Kolkata,East,DTDC,Net Banking,Anjali,No
+ORD1305,Neha Gupta,Keyboard,Accessories,5,1-May-26,19-May-26,29-May-26,12500,7500,5000,Can Wait,Delivered,Pune,West,Ecom Express,Debit Card,Karthik,No
+ORD1306,Sneha Patel,Laptop,Electronics,4,13-May-26,2-Jun-26,4-Jun-26,220000,160000,60000,Urgent,Delivered,Ahmedabad,West,Ecom Express,Debit Card,Karthik,No
+ORD1307,Vikram Singh,Smartphone,Electronics,5,5-Mar-26,6-Mar-26,10-Mar-26,125000,90000,35000,Urgent,Delivered,Pune,West,Ecom Express,COD,Ravi,No
+ORD1308,Arjun Mehta,Keyboard,Accessories,2,15-Jun-26,18-Jun-26,24-Jun-26,5000,3000,2000,Can Wait,Delivered,Mumbai,West,Delhivery,Credit Card,Anjali,No
+ORD1309,Amit Kumar,Headphones,Accessories,5,30-Jun-26,5-Jul-26,13-Jul-26,17500,11000,6500,Can Wait,In Transit,Mumbai,West,BlueDart,UPI,Karthik,No
+ORD1310,Sneha Patel,Monitor,Electronics,5,7-Apr-26,14-Apr-26,24-Apr-26,90000,60000,30000,Can Wait,Delivered,Kolkata,East,BlueDart,Net Banking,Karthik,No
+ORD1311,Rahul Sharma,Laptop,Electronics,3,4-Feb-26,14-Feb-26,16-Feb-26,165000,120000,45000,Urgent,In Transit,Kolkata,East,Delhivery,Net Banking,Priya,No
+ORD1312,Amit Kumar,SSD 1TB,Storage,2,22-May-26,3-Jun-26,7-Jun-26,13000,9000,4000,Urgent,Pending,Mumbai,West,DTDC,UPI,Priya,No
+ORD1313,Rahul Sharma,Mouse,Accessories,2,19-Jun-26,4-Jul-26,10-Jul-26,2400,1400,1000,Can Wait,Scheduled,Kolkata,East,Delhivery,Net Banking,Ravi,No
+ORD1314,Arjun Mehta,Mouse,Accessories,4,25-Apr-26,13-May-26,21-May-26,4800,2800,2000,Can Wait,In Transit,Chennai,South,BlueDart,Debit Card,Priya,No
+ORD1315,Sneha Patel,SSD 1TB,Storage,3,9-May-26,29-May-26,8-Jun-26,19500,13500,6000,Can Wait,Scheduled,Bangalore,South,Ecom Express,Debit Card,Priya,No
+ORD1316,Kiran Das,Webcam,Accessories,3,14-Jun-26,15-Jun-26,17-Jun-26,6600,3600,3000,Can Wait,Scheduled,Hyderabad,South,Ecom Express,Debit Card,Priya,No
+ORD1317,Neha Gupta,Keyboard,Accessories,5,25-Apr-26,28-Apr-26,2-May-26,12500,7500,5000,Can Wait,Scheduled,Pune,West,Delhivery,UPI,Ravi,No
+ORD1318,Amit Kumar,SSD 1TB,Storage,2,28-Mar-26,2-Apr-26,8-Apr-26,13000,9000,4000,Urgent,Delivered,Pune,West,Ecom Express,UPI,Karthik,No
+ORD1319,Vikram Singh,Printer,Office,3,18-Jan-26,25-Jan-26,2-Feb-26,25500,18000,7500,Can Wait,Returned,Ahmedabad,West,DTDC,COD,Karthik,Yes
+ORD1320,Arjun Mehta,Webcam,Accessories,1,16-Mar-26,26-Mar-26,5-Apr-26,2200,1200,1000,Can Wait,Delivered,Chennai,South,DTDC,Net Banking,Priya,No
+ORD1321,Rahul Sharma,Laptop,Electronics,5,21-Mar-26,2-Apr-26,4-Apr-26,275000,200000,75000,Urgent,Scheduled,Jaipur,North,BlueDart,Credit Card,Suresh,No
+ORD1322,Neha Gupta,Mouse,Accessories,3,4-Jun-26,19-Jun-26,23-Jun-26,3600,2100,1500,Can Wait,In Transit,Jaipur,North,DTDC,COD,Ravi,No
+ORD1323,Kiran Das,Monitor,Electronics,4,1-May-26,19-May-26,25-May-26,72000,48000,24000,Urgent,In Transit,Jaipur,North,BlueDart,COD,Ravi,No
+ORD1324,Kiran Das,Webcam,Accessories,4,17-Feb-26,9-Mar-26,17-Mar-26,8800,4800,4000,Can Wait,Scheduled,Ahmedabad,West,Delhivery,COD,Karthik,No
+ORD1325,Sneha Patel,Mouse,Accessories,1,21-May-26,22-May-26,1-Jun-26,1200,700,500,Urgent,Delivered,Jaipur,North,BlueDart,Debit Card,Karthik,No
+ORD1326,Arjun Mehta,Headphones,Accessories,4,7-Jun-26,10-Jun-26,12-Jun-26,14000,8800,5200,Can Wait,Delivered,Jaipur,North,DTDC,Credit Card,Karthik,No
+ORD1327,Kiran Das,SSD 1TB,Storage,5,24-Jan-26,29-Jan-26,2-Feb-26,32500,22500,10000,Can Wait,Scheduled,Mumbai,West,Delhivery,Debit Card,Priya,No
+ORD1328,Rohit Verma,SSD 1TB,Storage,1,8-Jun-26,15-Jun-26,21-Jun-26,6500,4500,2000,Can Wait,Pending,Ahmedabad,West,DTDC,Debit Card,Ravi,No
+ORD1329,Amit Kumar,Keyboard,Accessories,3,29-Jan-26,8-Feb-26,16-Feb-26,7500,4500,3000,Urgent,Scheduled,Jaipur,North,DTDC,COD,Priya,No
+ORD1330,Arjun Mehta,Mouse,Accessories,4,17-Apr-26,29-Apr-26,9-May-26,4800,2800,2000,Can Wait,Delivered,Delhi,North,BlueDart,Net Banking,Priya,No
+ORD1331,Neha Gupta,Tablet,Electronics,2,21-Apr-26,6-May-26,8-May-26,36000,28000,8000,Urgent,Delivered,Mumbai,West,DTDC,Debit Card,Priya,No
+ORD1332,Kiran Das,Webcam,Accessories,5,26-Feb-26,16-Mar-26,20-Mar-26,11000,6000,5000,Urgent,Delivered,Chennai,South,Delhivery,COD,Priya,No
+ORD1333,Priiya Reddy,Webcam,Accessories,5,8-Apr-26,28-Apr-26,4-May-26,11000,6000,5000,Can Wait,In Transit,Mumbai,West,Ecom Express,Credit Card,Ravi,No
+ORD1334,Sneha Patel,Monitor,Electronics,5,1-May-26,2-May-26,10-May-26,90000,60000,30000,Urgent,Delivered,Hyderabad,South,Ecom Express,Credit Card,Ravi,No
+ORD1335,Anjali Rao,Keyboard,Accessories,1,15-Mar-26,18-Mar-26,28-Mar-26,2500,1500,1000,Urgent,Delivered,Ahmedabad,West,DTDC,Debit Card,Anjali,No
+ORD1336,Vikram Singh,Monitor,Electronics,3,21-Jan-26,26-Jan-26,28-Jan-26,54000,36000,18000,Urgent,Pending,Pune,West,DTDC,COD,Suresh,No
+ORD1337,Rahul Sharma,Monitor,Electronics,3,26-Mar-26,2-Apr-26,6-Apr-26,54000,36000,18000,Urgent,Pending,Hyderabad,South,Delhivery,Net Banking,Anjali,No
+ORD1338,Sneha Patel,Monitor,Electronics,2,12-Mar-26,22-Mar-26,28-Mar-26,36000,24000,12000,Urgent,Scheduled,Ahmedabad,West,Ecom Express,Net Banking,Priya,No
+ORD1339,Neha Gupta,Webcam,Accessories,1,28-Mar-26,9-Apr-26,17-Apr-26,2200,1200,1000,Can Wait,Delivered,Bangalore,South,Ecom Express,Credit Card,Priya,No
+ORD1340,Rohit Verma,Monitor,Electronics,5,3-Mar-26,18-Mar-26,28-Mar-26,90000,60000,30000,Urgent,Pending,Delhi,North,Ecom Express,UPI,Karthik,No
+ORD1341,Rohit Verma,Tablet,Electronics,2,15-Mar-26,2-Apr-26,4-Apr-26,36000,28000,8000,Urgent,Pending,Mumbai,West,BlueDart,Net Banking,Ravi,No
+ORD1342,Anjali Rao,Webcam,Accessories,3,5-Jun-26,25-Jun-26,29-Jun-26,6600,3600,3000,Can Wait,Scheduled,Jaipur,North,Ecom Express,COD,Suresh,No
+ORD1343,Amit Kumar,Headphones,Accessories,1,22-Mar-26,23-Mar-26,29-Mar-26,3500,2200,1300,Urgent,Delivered,Bangalore,South,BlueDart,COD,Ravi,No
+ORD1344,Rahul Sharma,Mouse,Accessories,1,12-Jan-26,15-Jan-26,23-Jan-26,1200,700,500,Can Wait,Scheduled,Hyderabad,South,Delhivery,UPI,Priya,No
+ORD1345,Amit Kumar,Smartphone,Electronics,4,7-Jan-26,12-Jan-26,22-Jan-26,100000,72000,28000,Can Wait,Delivered,Chennai,South,Delhivery,Debit Card,Priya,No
+ORD1346,Rohit Verma,SSD 1TB,Storage,5,2-Apr-26,9-Apr-26,11-Apr-26,32500,22500,10000,Can Wait,Pending,Ahmedabad,West,BlueDart,Debit Card,Ravi,No
+ORD1347,Kiran Das,Printer,Office,2,29-Jan-26,8-Feb-26,12-Feb-26,17000,12000,5000,Can Wait,Delivered,Jaipur,North,BlueDart,COD,Suresh,No
+ORD1348,Rohit Verma,Printer,Office,4,18-Jan-26,30-Jan-26,5-Feb-26,34000,24000,10000,Can Wait,Delivered,Delhi,North,DTDC,Debit Card,Karthik,No
+ORD1349,Sneha Patel,Keyboard,Accessories,3,5-Feb-26,20-Feb-26,28-Feb-26,7500,4500,3000,Urgent,In Transit,Kolkata,East,DTDC,Net Banking,Ravi,No
+ORD1350,Arjun Mehta,SSD 1TB,Storage,4,9-May-26,27-May-26,6-Jun-26,26000,18000,8000,Can Wait,Scheduled,Jaipur,North,DTDC,Net Banking,Ravi,No
+ORD1351,Amit Kumar,SSD 1TB,Storage,3,29-Mar-26,18-Apr-26,20-Apr-26,19500,13500,6000,Can Wait,In Transit,Chennai,South,Ecom Express,UPI,Karthik,No
+ORD1352,Priiya Reddy,Smartphone,Electronics,4,26-Jun-26,27-Jun-26,1-Jul-26,100000,72000,28000,Urgent,Scheduled,Delhi,North,DTDC,UPI,Ravi,No
+ORD1353,Priiya Reddy,SSD 1TB,Storage,3,21-May-26,24-May-26,30-May-26,19500,13500,6000,Urgent,Delivered,Ahmedabad,West,Ecom Express,Net Banking,Ravi,No
+ORD1354,Arjun Mehta,Tablet,Electronics,3,20-Mar-26,25-Mar-26,2-Apr-26,54000,42000,12000,Can Wait,Delivered,Ahmedabad,West,Ecom Express,Credit Card,Anjali,No
+ORD1355,Anjali Rao,Webcam,Accessories,1,20-Jan-26,27-Jan-26,6-Feb-26,2200,1200,1000,Can Wait,Pending,Jaipur,North,DTDC,UPI,Ravi,No
+ORD1356,Anjali Rao,Keyboard,Accessories,2,8-Feb-26,18-Feb-26,20-Feb-26,5000,3000,2000,Urgent,Delivered,Delhi,North,BlueDart,Debit Card,Priya,No
+ORD1357,Amit Kumar,Laptop,Electronics,3,17-Jan-26,29-Jan-26,2-Feb-26,165000,120000,45000,Can Wait,In Transit,Delhi,North,DTDC,Credit Card,Ravi,No
+ORD1358,Sneha Patel,Printer,Office,2,29-May-26,13-Jun-26,19-Jun-26,17000,12000,5000,Urgent,Delivered,Bangalore,South,Ecom Express,Credit Card,Anjali,No
+ORD1359,Anjali Rao,Tablet,Electronics,5,19-Jun-26,7-Jul-26,15-Jul-26,90000,70000,20000,Can Wait,Scheduled,Mumbai,West,DTDC,Credit Card,Karthik,No
+ORD1360,Priiya Reddy,Tablet,Electronics,3,5-Jan-26,25-Jan-26,4-Feb-26,54000,42000,12000,Urgent,Scheduled,Ahmedabad,West,DTDC,Debit Card,Anjali,No
+ORD1361,Rohit Verma,Webcam,Accessories,2,13-Apr-26,14-Apr-26,16-Apr-26,4400,2400,2000,Can Wait,Returned,Hyderabad,South,DTDC,Net Banking,Ravi,Yes
+ORD1362,Rohit Verma,Mouse,Accessories,4,19-Jun-26,22-Jun-26,26-Jun-26,4800,2800,2000,Can Wait,In Transit,Jaipur,North,DTDC,UPI,Priya,No
+ORD1363,Rahul Sharma,Smartphone,Electronics,3,18-Mar-26,23-Mar-26,29-Mar-26,75000,54000,21000,Urgent,In Transit,Bangalore,South,DTDC,UPI,Suresh,No
+ORD1364,Neha Gupta,Smartphone,Electronics,4,19-Feb-26,26-Feb-26,6-Mar-26,100000,72000,28000,Can Wait,Delivered,Hyderabad,South,Ecom Express,Debit Card,Anjali,No
+ORD1365,Priiya Reddy,Smartphone,Electronics,3,10-Jan-26,20-Jan-26,30-Jan-26,75000,54000,21000,Can Wait,Delivered,Hyderabad,South,Ecom Express,UPI,Karthik,No
+ORD1366,Rahul Sharma,Laptop,Electronics,2,6-Mar-26,18-Mar-26,20-Mar-26,110000,80000,30000,Can Wait,Returned,Chennai,South,BlueDart,Net Banking,Ravi,Yes
+ORD1367,Sneha Patel,Laptop,Electronics,2,5-Apr-26,20-Apr-26,24-Apr-26,110000,80000,30000,Urgent,Delivered,Hyderabad,South,Ecom Express,Debit Card,Ravi,No
+ORD1368,Arjun Mehta,Smartphone,Electronics,4,2-Jun-26,20-Jun-26,26-Jun-26,100000,72000,28000,Urgent,Scheduled,Kolkata,East,BlueDart,UPI,Suresh,No
+ORD1369,Vikram Singh,SSD 1TB,Storage,1,25-Mar-26,14-Apr-26,22-Apr-26,6500,4500,2000,Urgent,Pending,Ahmedabad,West,Delhivery,UPI,Karthik,No
+ORD1370,Neha Gupta,Smartphone,Electronics,1,10-Apr-26,11-Apr-26,21-Apr-26,25000,18000,7000,Can Wait,Delivered,Bangalore,South,DTDC,COD,Karthik,No
+ORD1371,Rahul Sharma,Tablet,Electronics,3,29-Jun-26,2-Jul-26,4-Jul-26,54000,42000,12000,Urgent,Pending,Jaipur,North,DTDC,Credit Card,Karthik,No
+ORD1372,Rahul Sharma,Smartphone,Electronics,4,15-Feb-26,20-Feb-26,24-Feb-26,100000,72000,28000,Can Wait,Delivered,Mumbai,West,DTDC,COD,Anjali,No
+ORD1373,Arjun Mehta,Printer,Office,4,30-Jan-26,6-Feb-26,12-Feb-26,34000,24000,10000,Can Wait,Delivered,Mumbai,West,DTDC,COD,Priya,No
+ORD1374,Sneha Patel,Laptop,Electronics,3,21-Jun-26,1-Jul-26,9-Jul-26,165000,120000,45000,Urgent,In Transit,Ahmedabad,West,BlueDart,UPI,Priya,No
+ORD1375,Neha Gupta,Mouse,Accessories,5,18-May-26,30-May-26,9-Jun-26,6000,3500,2500,Urgent,Scheduled,Hyderabad,South,Delhivery,Net Banking,Anjali,No
+ORD1376,Rohit Verma,SSD 1TB,Storage,4,10-Jan-26,25-Jan-26,27-Jan-26,26000,18000,8000,Urgent,In Transit,Ahmedabad,West,Ecom Express,Net Banking,Anjali,No
+ORD1377,Vikram Singh,Tablet,Electronics,1,15-Feb-26,5-Mar-26,9-Mar-26,18000,14000,4000,Urgent,Delivered,Delhi,North,DTDC,Net Banking,Karthik,No
+ORD1378,Amit Kumar,Keyboard,Accessories,4,29-Jun-26,19-Jul-26,25-Jul-26,10000,6000,4000,Urgent,Scheduled,Jaipur,North,Delhivery,UPI,Priya,No
+ORD1379,Neha Gupta,Keyboard,Accessories,3,28-Jun-26,29-Jun-26,7-Jul-26,7500,4500,3000,Urgent,Pending,Delhi,North,Delhivery,Credit Card,Karthik,No
+ORD1380,Arjun Mehta,SSD 1TB,Storage,4,8-Jun-26,11-Jun-26,21-Jun-26,26000,18000,8000,Can Wait,Delivered,Mumbai,West,Delhivery,UPI,Anjali,No
+ORD1381,Sneha Patel,Webcam,Accessories,1,20-Jun-26,25-Jun-26,27-Jun-26,2200,1200,1000,Urgent,In Transit,Hyderabad,South,BlueDart,Net Banking,Priya,No
+ORD1382,Rahul Sharma,Printer,Office,1,30-May-26,6-Jun-26,10-Jun-26,8500,6000,2500,Can Wait,Scheduled,Ahmedabad,West,Delhivery,Debit Card,Ravi,No
+ORD1383,Anjali Rao,Webcam,Accessories,5,22-Jan-26,1-Feb-26,7-Feb-26,11000,6000,5000,Can Wait,Scheduled,Chennai,South,DTDC,Debit Card,Anjali,No
+ORD1384,Sneha Patel,Headphones,Accessories,2,24-Jan-26,5-Feb-26,13-Feb-26,7000,4400,2600,Urgent,Scheduled,Pune,West,Delhivery,Credit Card,Anjali,No
+ORD1385,Rahul Sharma,Webcam,Accessories,1,21-Jun-26,6-Jul-26,16-Jul-26,2200,1200,1000,Can Wait,Delivered,Delhi,North,DTDC,COD,Karthik,No
+ORD1386,Arjun Mehta,Printer,Office,5,13-Feb-26,3-Mar-26,5-Mar-26,42500,30000,12500,Can Wait,In Transit,Pune,West,Ecom Express,COD,Anjali,No
+ORD1387,Amit Kumar,Headphones,Accessories,4,17-Apr-26,7-May-26,11-May-26,14000,8800,5200,Urgent,Delivered,Chennai,South,DTDC,UPI,Karthik,No
+ORD1388,Vikram Singh,Laptop,Electronics,3,8-May-26,9-May-26,15-May-26,165000,120000,45000,Urgent,Scheduled,Ahmedabad,West,DTDC,Credit Card,Karthik,No
+ORD1389,Kiran Das,Webcam,Accessories,5,6-Feb-26,9-Feb-26,17-Feb-26,11000,6000,5000,Can Wait,Delivered,Bangalore,South,Ecom Express,UPI,Priya,No
+ORD1390,Neha Gupta,Tablet,Electronics,1,9-May-26,14-May-26,24-May-26,18000,14000,4000,Urgent,Delivered,Chennai,South,DTDC,COD,Suresh,No
+ORD1391,Neha Gupta,Headphones,Accessories,3,14-Mar-26,21-Mar-26,23-Mar-26,10500,6600,3900,Urgent,In Transit,Kolkata,East,DTDC,COD,Anjali,No
+ORD1392,Vikram Singh,Webcam,Accessories,1,5-Jun-26,15-Jun-26,19-Jun-26,2200,1200,1000,Can Wait,Scheduled,Jaipur,North,DTDC,Credit Card,Anjali,No
+ORD1393,Kiran Das,Mouse,Accessories,2,9-May-26,21-May-26,27-May-26,2400,1400,1000,Can Wait,In Transit,Jaipur,North,BlueDart,Debit Card,Anjali,No
+ORD1394,Amit Kumar,Monitor,Electronics,5,22-Jun-26,7-Jul-26,15-Jul-26,90000,60000,30000,Can Wait,Delivered,Pune,West,Ecom Express,Net Banking,Anjali,No
+ORD1395,Neha Gupta,SSD 1TB,Storage,1,22-Mar-26,9-Apr-26,19-Apr-26,6500,4500,2000,Urgent,Scheduled,Mumbai,West,DTDC,Net Banking,Suresh,No
+ORD1396,Kiran Das,Keyboard,Accessories,1,19-Apr-26,9-May-26,11-May-26,2500,1500,1000,Can Wait,In Transit,Pune,West,DTDC,Net Banking,Karthik,No
+ORD1397,Rahul Sharma,SSD 1TB,Storage,5,9-Feb-26,10-Feb-26,14-Feb-26,32500,22500,10000,Urgent,Delivered,Pune,West,Delhivery,Net Banking,Anjali,No
+ORD1398,Amit Kumar,Printer,Office,1,3-May-26,6-May-26,12-May-26,8500,6000,2500,Can Wait,In Transit,Delhi,North,Delhivery,UPI,Anjali,No
+ORD1399,Anjali Rao,Webcam,Accessories,5,21-Feb-26,26-Feb-26,6-Mar-26,11000,6000,5000,Can Wait,Delivered,Mumbai,West,Delhivery,COD,Karthik,No
+ORD1400,Kiran Das,Laptop,Electronics,5,11-Jun-26,18-Jun-26,28-Jun-26,275000,200000,75000,Can Wait,Delivered,Kolkata,East,Delhivery,Net Banking,Anjali,No
