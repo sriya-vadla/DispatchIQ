@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars, no-mixed-operators */
 import React, { useEffect, useState, useMemo } from "react";
 import Papa from "papaparse";
 
@@ -470,9 +471,9 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
     if (role === "Business Analyst") return "dashboard";
     return "dashboard";
   });
-  const [dashboardSubTab, setDashboardSubTab] = useState("all");
-  const [logisticsSubTab, setLogisticsSubTab] = useState("all");
-  const [productsSubTab, setProductsSubTab] = useState("all");
+  //const [dashboardSubTab, setDashboardSubTab] = useState("all");
+  //const [logisticsSubTab, setLogisticsSubTab] = useState("all");
+  //const [productsSubTab, setProductsSubTab] = useState("all");
 
   const getInitials = (name) => {
     if (!name) return "";
@@ -986,7 +987,6 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
 
   const handleDashboardSubTabClick = (subTab, elementId) => {
     setActiveTab("dashboard");
-    setDashboardSubTab(subTab);
     setTimeout(() => {
       const element = document.getElementById(elementId);
       if (element) {
@@ -1298,7 +1298,6 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                 className={`sidebar-sub-link ${activeTab === "dashboard" ? "active" : ""}`}
                 onClick={() => {
                   setActiveTab("dashboard");
-                  setDashboardSubTab("all");
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 style={{
@@ -1365,7 +1364,6 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                 className={`sidebar-sub-link ${activeTab === "customerExperience" ? "active" : ""}`}
                 onClick={() => {
                   setActiveTab("customerExperience");
-                  setProductsSubTab("all");
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 style={{
@@ -1398,7 +1396,6 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                 className={`sidebar-sub-link ${activeTab === "logistics" ? "active" : ""}`}
                 onClick={() => {
                   setActiveTab("logistics");
-                  setLogisticsSubTab("all");
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 style={{

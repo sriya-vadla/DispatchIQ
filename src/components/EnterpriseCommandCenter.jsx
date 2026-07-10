@@ -80,8 +80,8 @@ export default function EnterpriseCommandCenter({
     return delayedOrders.filter(o => o.Region === zone).reduce((sum, o) => sum + (Number(o.OrderValue) || 0), 0);
   };
 
-  const worstCourierShare = calculateCourierDelayShare();
-  const northZoneRisk = calculateZoneRisk("North Zone");
+  // const worstCourierShare = calculateCourierDelayShare();
+  // const northZoneRisk = calculateZoneRisk("North Zone");
   const actionCustomers = churnRiskCustomers;
 
   // --- AI Root Cause Analysis ---
