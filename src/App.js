@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
+import Landing from "./pages/Landing";
 import "./App.css";
 
 function App() {
@@ -35,8 +36,11 @@ function App() {
     setCurrentPath("/login");
   };
 
-  if (currentPath === "/login" || !isAuthenticated) {
-    return <Login onLogin={handleLogin} />;
+  if (!isAuthenticated) {
+    if (currentPath === "/login") {
+      return <Login onLogin={handleLogin} />;
+    }
+    return <Landing />;
   }
 
   return <Dashboard onLogout={handleLogout} />;

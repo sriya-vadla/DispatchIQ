@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { PhoneCall, AlertTriangle, UserPlus, Mail, CheckCircle, Check, ChevronLeft, Users } from "lucide-react";
 
 export default function ExecutiveActions({ onActionTrigger, loggedInUser }) {
   // Load completed actions from localStorage
@@ -76,7 +77,7 @@ export default function ExecutiveActions({ onActionTrigger, loggedInUser }) {
       badge: "₹90k Risk",
       badgeClass: "badge-red",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <PhoneCall size={18} strokeWidth={2.5} />
       )
     },
     {
@@ -87,7 +88,7 @@ export default function ExecutiveActions({ onActionTrigger, loggedInUser }) {
       badge: "7 Breaches",
       badgeClass: "badge-amber",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <AlertTriangle size={18} strokeWidth={2.5} />
       )
     },
     {
@@ -98,7 +99,7 @@ export default function ExecutiveActions({ onActionTrigger, loggedInUser }) {
       badge: "Dispatch Load",
       badgeClass: "badge-purple",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+        <UserPlus size={18} strokeWidth={2.5} />
       )
     },
     {
@@ -109,113 +110,78 @@ export default function ExecutiveActions({ onActionTrigger, loggedInUser }) {
       badge: "SLA Protection",
       badgeClass: "badge-blue",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12V7H3v10h10"/><path d="M18 22v-6"/><path d="M15 19h6"/><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M12 17h.01"/></svg>
+        <Mail size={18} strokeWidth={2.5} />
       )
     }
   ];
 
-  const totalActions = actionItems.length;
-  const completedActions = Object.values(completed).filter(Boolean).length;
-  const progressPercent = Math.round((completedActions / totalActions) * 100);
-
   return (
-    <div className="panel" style={{ background: "linear-gradient(135deg, #1e293b 0%, #0f172a 100%)", border: "1px solid var(--border-color)", borderRadius: "18px", padding: "24px", position: "relative" }}>
-      
-      {/* Header */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
-          <h2 style={{ margin: 0, padding: 0, border: "none", fontSize: "1.15rem", background: "linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-            Executive Actions Due Today
-          </h2>
-        </div>
-        <span className="badge badge-amber" style={{ fontSize: "0.7rem" }}>Actions Required</span>
-      </div>
-
-      {/* Progress Tracker */}
-      <div style={{ marginBottom: "20px" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.8rem", color: "var(--text-secondary)", marginBottom: "6px" }}>
-          <span>Action Checklist Progress</span>
-          <span style={{ fontWeight: "700", color: progressPercent === 100 ? "var(--accent-green)" : "var(--text-primary)" }}>{completedActions} of {totalActions} ({progressPercent}%)</span>
-        </div>
-        <div style={{ width: "100%", height: "6px", backgroundColor: "rgba(255,255,255,0.05)", borderRadius: "3px", overflow: "hidden" }}>
-          <div style={{ width: `${progressPercent}%`, height: "100%", backgroundColor: progressPercent === 100 ? "var(--accent-green)" : "var(--accent-amber)", borderRadius: "3px", transition: "width 0.4s cubic-bezier(0.4, 0, 0.2, 1)" }} />
-        </div>
-      </div>
-
-      {/* Checklist List */}
+    <div style={{ padding: "0 0 20px 0" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-        {actionItems.map(item => {
-          const isDone = completed[item.id];
-          return (
-            <div 
-              key={item.id}
-              onClick={() => handleActionClick(item.id)}
-              style={{
-                display: "flex",
-                alignItems: "flex-start",
-                gap: "14px",
-                padding: "14px",
-                borderRadius: "12px",
-                backgroundColor: isDone ? "rgba(255,255,255,0.02)" : "rgba(255,255,255,0.04)",
-                border: isDone ? "1px solid rgba(255,255,255,0.03)" : "1px solid var(--border-color)",
-                cursor: "pointer",
-                transition: "all 0.2s ease-in-out",
-                opacity: isDone ? 0.6 : 1
-              }}
-              className="action-card-hover"
-            >
-              {/* Checkbox */}
-              <div 
-                onClick={(e) => toggleComplete(item.id, e)}
+        {actionItems.map(action => (
+          <div 
+            key={action.id} 
+            className="panel action-card-hover" 
+            style={{ 
+              padding: "16px 20px", 
+              cursor: "pointer", 
+              borderLeft: completed[action.id] ? "3px solid var(--accent-green)" : "3px solid transparent",
+              opacity: completed[action.id] ? 0.6 : 1,
+              transition: "all 0.2s"
+            }}
+            onClick={() => handleActionClick(action.id)}
+          >
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "8px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                <div style={{ color: "var(--text-secondary)" }}>
+                  {action.icon}
+                </div>
+                <h4 style={{ margin: 0, fontSize: "0.95rem", color: completed[action.id] ? "var(--text-secondary)" : "var(--text-primary)", display: "flex", alignItems: "center", gap: "8px" }}>
+                  {action.title}
+                  {completed[action.id] && <CheckCircle size={14} color="var(--accent-green)" strokeWidth={2.5} />}
+                </h4>
+              </div>
+              <span className={`badge ${action.badgeClass}`}>{action.badge}</span>
+            </div>
+            
+            <p style={{ margin: "0 0 6px 0", fontSize: "0.82rem", fontWeight: "600", color: "var(--text-secondary)" }}>
+              {action.subtitle}
+            </p>
+            <p style={{ margin: "0 0 12px 0", fontSize: "0.82rem", color: "#94a3b8", lineHeight: "1.5" }}>
+              {action.description}
+            </p>
+            
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <button 
+                className="btn btn-secondary btn-small"
+                onClick={(e) => toggleComplete(action.id, e)}
                 style={{
-                  width: "20px",
-                  height: "20px",
-                  borderRadius: "6px",
-                  border: isDone ? "2px solid var(--accent-green)" : "2px solid var(--text-secondary)",
-                  backgroundColor: isDone ? "var(--accent-green)" : "transparent",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  marginTop: "2px",
-                  transition: "all 0.15s ease",
-                  flexShrink: 0
+                  display: "flex", alignItems: "center", gap: "6px",
+                  borderColor: completed[action.id] ? "var(--accent-green)" : "var(--border-color)",
+                  color: completed[action.id] ? "var(--accent-green)" : "var(--text-secondary)"
                 }}
               >
-                {isDone && (
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                {completed[action.id] ? (
+                  <><Check size={14} strokeWidth={3} /> Completed</>
+                ) : (
+                  "Mark as Done"
                 )}
-              </div>
-
-              {/* Text */}
-              <div style={{ flex: 1 }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "5px" }}>
-                  <h4 style={{ margin: 0, fontSize: "0.92rem", textDecoration: isDone ? "line-through" : "none", color: isDone ? "var(--text-secondary)" : "#e2e8f0", fontWeight: "600" }}>
-                    {item.title}
-                  </h4>
-                  <span className={`badge ${item.badgeClass}`} style={{ fontSize: "0.65rem", padding: "2px 6px" }}>{item.badge}</span>
-                </div>
-                <p style={{ margin: "4px 0 0 0", fontSize: "0.78rem", color: "var(--text-secondary)", lineHeight: "1.4" }}>
-                  {item.description}
-                </p>
-              </div>
-
-              {/* Action arrow */}
-              <div style={{ color: "rgba(255,255,255,0.2)", alignSelf: "center", display: "flex", paddingLeft: "5px" }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+              
+              <div style={{ color: "var(--accent-blue)", fontSize: "0.8rem", display: "flex", alignItems: "center", gap: "4px", fontWeight: "600" }}>
+                Take Action <ChevronLeft size={14} strokeWidth={2.5} style={{ transform: "rotate(180deg)" }} />
               </div>
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
 
-      {/* Confirmation Modal for Assignment */}
       {showAssignModal && (
-        <div className="modal-overlay">
-          <div className="modal-content" style={{ maxWidth: "450px" }}>
+        <div className="modal-overlay" onClick={() => setShowAssignModal(false)}>
+          <div className="modal-content" onClick={e => e.stopPropagation()}>
             <div className="modal-header">
-              <h3 style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-purple)" strokeWidth="2.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              <h3 style={{ display: "flex", alignItems: "center", gap: "8px", color: "var(--accent-purple)", margin: 0 }}>
+                <Users size={18} strokeWidth={2.5} color="var(--accent-purple)" />
                 Workload Balance Assignment
               </h3>
               <button className="modal-close" onClick={() => setShowAssignModal(false)}>&times;</button>
@@ -258,7 +224,7 @@ export default function ExecutiveActions({ onActionTrigger, loggedInUser }) {
           animation: "slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
         }}>
           <div style={{ width: "24px", height: "24px", borderRadius: "50%", backgroundColor: "rgba(169, 85, 247, 0.2)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--accent-purple)" }}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><polyline points="20 6 9 17 4 12"/></svg>
+            <Check size={14} strokeWidth={3} />
           </div>
           <span style={{ fontSize: "0.88rem", fontWeight: "600" }}>{toastMessage}</span>
         </div>

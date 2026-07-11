@@ -1,5 +1,10 @@
 /* eslint-disable no-unused-vars, no-mixed-operators */
 import React, { useEffect, useState, useMemo } from "react";
+import { 
+  Building, BarChart3, Ticket, PhoneCall, Target, 
+  MessageSquare, Trophy, Truck, UploadCloud, Zap, Shield, 
+  Search, Bell, Download, LogOut, ChevronDown 
+} from "lucide-react";
 import Papa from "papaparse";
 
 import RevenueChart from "../components/RevenueChart";
@@ -174,14 +179,14 @@ export default function Dashboard({ onLogout }) {
           
           aiResponseText = `### Courier Performance Comparison
 
-🚚 **${better.name}**
+<Truck size={16} style={{marginRight: '6px'}} />**${better.name}**
 
 Delay Rate: ${better.delayRate.toFixed(1)}%
 Avg Delay: ${better.avgDelay.toFixed(1)} days
 SLA Compliance: ${better.slaCompliance.toFixed(1)}%
 Delayed Orders: ${better.delayed} / ${better.total}
 
-🚚 **${worse.name}**
+<Truck size={16} style={{marginRight: '6px'}} />**${worse.name}**
 
 Delay Rate: ${worse.delayRate.toFixed(1)}%
 Avg Delay: ${worse.avgDelay.toFixed(1)} days
@@ -200,7 +205,7 @@ ${better.name} is currently outperforming ${worse.name} with a higher SLA compli
         } else {
           let text = `### Courier Performance Summary\n\n`;
           stats.forEach(s => {
-            text += `🚚 **${s.name}**\n\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
+            text += `<Truck size={16} style={{marginRight: '6px'}} />**${s.name}**\n\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
           });
           const best = stats[0];
           text += `### Recommendation\n**${best.name}** is recommended because it has the lowest delay rate (${best.delayRate.toFixed(1)}%), high SLA compliance (${best.slaCompliance.toFixed(1)}%), and the fewest delayed shipments among active courier partners.\n\n***\n**Recommendation confidence:** High  
@@ -211,7 +216,7 @@ ${better.name} is currently outperforming ${worse.name} with a higher SLA compli
         const stats = getCourierStats();
         let text = `### Courier SLA Compliance Ranking\n\n`;
         stats.forEach(s => {
-          text += `🚚 **${s.name}**\n\nSLA Compliance: ${s.slaCompliance.toFixed(1)}%\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
+          text += `<Truck size={16} style={{marginRight: '6px'}} />**${s.name}**\n\nSLA Compliance: ${s.slaCompliance.toFixed(1)}%\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
         });
         const best = stats[0];
         text += `### Recommendation\n**${best.name}** is recommended because it has the highest SLA compliance rate (${best.slaCompliance.toFixed(1)}%), lowest delay rate (${best.delayRate.toFixed(1)}%), and the fewest delayed shipments among active courier partners.\n\n***\n**Recommendation confidence:** High  
@@ -222,7 +227,7 @@ ${better.name} is currently outperforming ${worse.name} with a higher SLA compli
         const best = stats[0];
         aiResponseText = `### Premium Shipping Recommendation
 
-🚚 **${best.name}**
+<Truck size={16} style={{marginRight: '6px'}} />**${best.name}**
 
 SLA Compliance: ${best.slaCompliance.toFixed(1)}%
 Delay Rate: ${best.delayRate.toFixed(1)}%
@@ -245,7 +250,7 @@ ${best.name} demonstrates the highest reliability in the current dataset with a 
         
         let text = `### Operational Delay Analysis\n\n`;
         stats.forEach(s => {
-          text += `🚚 **${s.name}**\n\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
+          text += `<Truck size={16} style={{marginRight: '6px'}} />**${s.name}**\n\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
         });
         
         text += `### Analysis
@@ -291,7 +296,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
         const stats = getCourierStats();
         let text = `### Courier Performance Summary\n\n`;
         stats.forEach(s => {
-          text += `🚚 **${s.name}**\n\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
+          text += `<Truck size={16} style={{marginRight: '6px'}} />**${s.name}**\n\nDelay Rate: ${s.delayRate.toFixed(1)}%\nAvg Delay: ${s.avgDelay.toFixed(1)} days\nDelayed Orders: ${s.delayed} / ${s.total}\n\n`;
         });
         const best = stats[0];
         text += `### Recommendation\n**${best.name}** is recommended because it has the lowest delay rate (${best.delayRate.toFixed(1)}%), high SLA compliance (${best.slaCompliance.toFixed(1)}%), and the fewest delayed shipments among active courier partners.\n\n***\n**Recommendation confidence:** High  
@@ -1288,7 +1293,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                   paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                 }}
               >
-                <span className="sidebar-link-text">🏢 Enterprise Command Center</span>
+                <span className="sidebar-link-text"><Building size={16} style={{marginRight: '6px'}} />Enterprise Command Center</span>
               </button>
             )}
 
@@ -1304,7 +1309,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                   paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                 }}
               >
-                <span className="sidebar-link-text">📊 Executive Dashboard</span>
+                <span className="sidebar-link-text"><BarChart3 size={16} style={{marginRight: '6px'}} />Executive Dashboard</span>
               </button>
             )}
 
@@ -1320,7 +1325,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                   paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                 }}
               >
-                <span className="sidebar-link-text">🎫 Ticket Management</span>
+                <span className="sidebar-link-text"><Ticket size={16} style={{marginRight: '6px'}} />Ticket Management</span>
               </button>
             )}
 
@@ -1336,7 +1341,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                   paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                 }}
               >
-                <span className="sidebar-link-text">📞 Outreach Desk</span>
+                <span className="sidebar-link-text"><PhoneCall size={16} style={{marginRight: '6px'}} />Outreach Desk</span>
               </button>
             )}
 
@@ -1353,7 +1358,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                   paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", justifyContent: "space-between", width: "100%", textAlign: "left"
                 }}
               >
-                <span className="sidebar-link-text">🎯 CRM Operations</span>
+                <span className="sidebar-link-text"><Target size={16} style={{marginRight: '6px'}} />CRM Operations</span>
                 <span className="sidebar-badge" style={{ backgroundColor: "#ef4444", color: "#fff", fontWeight: "700" }}>{predictedRevenueImpact}</span>
               </button>
             )}
@@ -1370,7 +1375,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                   paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                 }}
               >
-                <span className="sidebar-link-text">💬 Customer Experience</span>
+                <span className="sidebar-link-text"><MessageSquare size={16} style={{marginRight: '6px'}} />Customer Experience</span>
               </button>
             )}
 
@@ -1386,7 +1391,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                   paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                 }}
               >
-                <span className="sidebar-link-text">🏆 Retention Center</span>
+                <span className="sidebar-link-text"><Trophy size={16} style={{marginRight: '6px'}} />Retention Center</span>
               </button>
             )}
 
@@ -1403,7 +1408,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                 }}
               >
                 <span className="sidebar-link-text" style={{ whiteSpace: "nowrap" }}>
-                  🚚 Logistics Analytics
+                  <Truck size={16} style={{marginRight: '6px'}} />Logistics Analytics
                   {(loggedInUser?.role === "Manager" || loggedInUser?.role === "Customer Success Manager" || loggedInUser?.role === "Operations Lead" || loggedInUser?.role === "Business Analyst") && " 🔒 Read Only"}
                 </span>
               </button>
@@ -1422,7 +1427,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                     paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                   }}
                 >
-                  <span className="sidebar-link-text">📂 Data Import</span>
+                  <span className="sidebar-link-text"><UploadCloud size={16} style={{marginRight: '6px'}} />Data Import</span>
                 </button>
 
                 <button
@@ -1435,7 +1440,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                     paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                   }}
                 >
-                  <span className="sidebar-link-text">⚡ Workflow Automation</span>
+                  <span className="sidebar-link-text"><Zap size={16} style={{marginRight: '6px'}} />Workflow Automation</span>
                 </button>
 
                 <button
@@ -1448,7 +1453,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                     paddingLeft: "12px", display: "flex", alignItems: "center", gap: "8px", fontWeight: "bold", width: "100%", textAlign: "left"
                   }}
                 >
-                  <span className="sidebar-link-text">🛡️ Administration</span>
+                  <span className="sidebar-link-text"><Shield size={16} style={{marginRight: '6px'}} />Administration</span>
                 </button>
               </>
             )}
@@ -1611,7 +1616,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                           )}
                           {globalSearchResults.tickets.length > 0 && (
                             <>
-                              <div className="search-result-group-label">🎫 Tickets</div>
+                              <div className="search-result-group-label"><Ticket size={16} style={{marginRight: '6px'}} />Tickets</div>
                               {globalSearchResults.tickets.map(t => {
                                 const idx = flattenedSearchResults.findIndex(x => x.type === 'ticket' && x.item.id === t.id);
                                 const isSelected = idx === searchSelectedIndex;
@@ -1880,7 +1885,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                       onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.05)"}
                       onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
                     >
-                      📊 Export Excel Data
+                      <BarChart3 size={16} style={{marginRight: '6px'}} />Export Excel Data
                     </button>
                     <button
                       onClick={() => {
@@ -1905,7 +1910,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                       onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.05)"}
                       onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "transparent"}
                     >
-                      🎫 Export Ticket Summary
+                      <Ticket size={16} style={{marginRight: '6px'}} />Export Ticket Summary
                     </button>
                   </div>
                   </>
@@ -2520,7 +2525,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                                  <td style={{ padding: "10px 8px", textAlign: "right", fontWeight: "600" }}>₹{pred.value.toLocaleString()}</td>
                                  <td style={{ padding: "10px 8px", textAlign: "center" }}>
                                    <span className="badge" style={{ color: probColor, background: probBg, border: `1px solid ${probColor}33`, fontWeight: "800", fontSize: "0.78rem" }}>
-                                     ⚡ {pred.probability}% Risk
+                                     <Zap size={16} style={{marginRight: '6px'}} />{pred.probability}% Risk
                                    </span>
                                  </td>
                                  <td 
@@ -3484,7 +3489,7 @@ We recommend immediately diverting 15% of North Zone dispatch volumes from BlueD
                       <strong style={{ color: "#fbbf24" }}>{regionAtRisk} Zone</strong>
                     </div>
                     <div style={{ display: "flex", flexDirection: "column", gap: "2px", borderTop: "1px dashed rgba(255,255,255,0.1)", paddingTop: "6px" }}>
-                      <span style={{ color: "#a78bfa", fontWeight: "700", fontSize: "0.78rem" }}>⚡ AI Recommendation:</span>
+                      <span style={{ color: "#a78bfa", fontWeight: "700", fontSize: "0.78rem" }}><Zap size={16} style={{marginRight: '6px'}} />AI Recommendation:</span>
                       <span style={{ color: "#e2e8f0", fontSize: "0.78rem", fontWeight: "500" }}>Shift 15% volume from {worstCourier} to {bestCourier}.</span>
                     </div>
                   </div>

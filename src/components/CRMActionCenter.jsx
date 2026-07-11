@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MessageSquare, Mail } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from "recharts";
 import { 
   isDelayed, 
@@ -797,7 +798,7 @@ Customer Operations Manager`;
                     onClick={() => handleOpenOutreach(currentRiskOrder)}
                     style={{ alignSelf: "flex-end", display: "inline-flex", gap: "6px", alignItems: "center", padding: "6px 12px", fontSize: "0.82rem" }}
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <MessageSquare size={12} strokeWidth={2.5} />
                     Open Outreach Desk
                   </button>
                 </div>
@@ -929,7 +930,7 @@ Customer Operations Manager`;
                   <div style={{ background: "rgba(59,130,246,0.02)", border: "1px solid rgba(59,130,246,0.15)", borderRadius: "14px", padding: "18px" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "14px" }}>
                       <h4 style={{ margin: 0, fontSize: "0.95rem", color: "var(--accent-blue)", display: "flex", alignItems: "center", gap: "6px" }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <Mail size={16} strokeWidth={2.5} />
                         Omnichannel Customer Outreach
                       </h4>
                       <div style={{ display: "flex", gap: "8px" }}>

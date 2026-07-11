@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Edit, Plus } from "lucide-react";
 import { getEscalationLevel, getDaysAgoText, getSLATimer } from "../utils/delayHelpers";
 
 export default function TicketManagement({ tickets = [], onUpdateTicket, preFilterEscalated = false }) {
@@ -355,7 +356,7 @@ export default function TicketManagement({ tickets = [], onUpdateTicket, preFilt
                         }}
                         style={{ padding: "5px 12px", display: "inline-flex", gap: "4px" }}
                       >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+                        <Edit size={12} strokeWidth={2.5} />
                         Manage
                       </button>
                     </td>
@@ -648,7 +649,7 @@ export default function TicketManagement({ tickets = [], onUpdateTicket, preFilt
                   required
                 />
                 <button type="submit" className="btn btn-small" style={{ alignSelf: "flex-end", padding: "8px 16px" }}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  <Plus size={12} strokeWidth={2} />
                   Add Entry
                 </button>
               </form>
